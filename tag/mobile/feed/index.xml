@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>mobile &#8211; Rashid Azar&#039;s Weblog</title>
+	<atom:link href="/tag/mobile/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Thu, 28 Jun 2018 15:07:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>My First Android App</title>
+		<link>/android-app/</link>
+		<comments>/android-app/#respond</comments>
+		<pubDate>Sat, 30 Jun 2012 13:26:46 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[Mobile Development]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[database]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[mobile]]></category>
+		<category><![CDATA[mobile application]]></category>
+		<category><![CDATA[trace]]></category>
+		<category><![CDATA[trace location]]></category>
+		<category><![CDATA[trace mobile number]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=392</guid>
+		<description><![CDATA[I was learning android native application development. I developed a sample application to detect the operator and circle of a given mobile number. This is an database application. You can follow the development at GitHub. If you want to install it on you android mobile click here. If you do not have android phone then &#8230; <a href="/android-app/" class="more-link">Continue reading <span class="screen-reader-text">My First Android App</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/android-app/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Trace Mobile Number Location &#038; Operator in India</title>
+		<link>/trace-mobile-number-location-operator-in-india/</link>
+		<comments>/trace-mobile-number-location-operator-in-india/#comments</comments>
+		<pubDate>Tue, 30 Mar 2010 04:46:10 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[mobile]]></category>
+		<category><![CDATA[trace]]></category>
+		<category><![CDATA[trace location]]></category>
+		<category><![CDATA[trace mobile number]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=78</guid>
+		<description><![CDATA[Several times we need to trace the mobile number&#8217;s location and operator for various reasons. If you are one of them then this tool will help you. Just click HERE.]]></description>
+		<wfw:commentRss>/trace-mobile-number-location-operator-in-india/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>

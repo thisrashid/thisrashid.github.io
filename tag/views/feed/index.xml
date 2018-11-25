@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Views &#8211; Rashid Azar&#039;s Weblog</title>
+	<atom:link href="/tag/views/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Thu, 28 Jun 2018 15:07:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>XPage &#8211; Sort View Column</title>
+		<link>/xpage-sort-view-column/</link>
+		<comments>/xpage-sort-view-column/#comments</comments>
+		<pubDate>Fri, 20 Jan 2012 15:06:54 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[Javascript]]></category>
+		<category><![CDATA[Lotus Notes]]></category>
+		<category><![CDATA[Tips]]></category>
+		<category><![CDATA[lotus notes]]></category>
+		<category><![CDATA[Sort]]></category>
+		<category><![CDATA[Views]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=305</guid>
+		<description><![CDATA[I was searching for a work around to allow view column to be sortable by clicking on column header but I was not able to find any reliable solution using View Panel. Now I found a way to provide this feature using Repeat Control or Data Table. Please go through the following code. [javascript] var &#8230; <a href="/xpage-sort-view-column/" class="more-link">Continue reading <span class="screen-reader-text">XPage &#8211; Sort View Column</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/xpage-sort-view-column/feed/</wfw:commentRss>
+		<slash:comments>10</slash:comments>
+		</item>
+	</channel>
+</rss>

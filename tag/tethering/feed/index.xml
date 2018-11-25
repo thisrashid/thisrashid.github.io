@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>tethering &#8211; Rashid Azar&#039;s Weblog</title>
+	<atom:link href="/tag/tethering/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Thu, 28 Jun 2018 15:07:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Android USB Tethering in UBUNTU 12.04</title>
+		<link>/android-usb-tethering-ubuntu-12-04/</link>
+		<comments>/android-usb-tethering-ubuntu-12-04/#comments</comments>
+		<pubDate>Thu, 16 Aug 2012 05:51:25 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[tethering]]></category>
+		<category><![CDATA[usb]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=410</guid>
+		<description><![CDATA[I was struggling to use the internet connection of my Android in my laptop. I searched on google and fond that Ubuntu recongnize it automatically if USB tethering is enabled on the connected Android phone. Then I tried to enable the USB modem interface usb0 using following command: [crayon-5bfab196855a5112831039/] it gave me following error: Ignoring &#8230; <a href="/android-usb-tethering-ubuntu-12-04/" class="more-link">Continue reading <span class="screen-reader-text">Android USB Tethering in UBUNTU 12.04</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/android-usb-tethering-ubuntu-12-04/feed/</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+		</item>
+	</channel>
+</rss>

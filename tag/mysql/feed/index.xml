@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>MySQL &#8211; Rashid Azar&#039;s Weblog</title>
+	<atom:link href="/tag/mysql/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Thu, 28 Jun 2018 15:07:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Backup MySQL Databases</title>
+		<link>/backup-mysql-databases/</link>
+		<comments>/backup-mysql-databases/#respond</comments>
+		<pubDate>Sun, 30 Dec 2012 12:02:37 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[PHP]]></category>
+		<category><![CDATA[SQL]]></category>
+		<category><![CDATA[backup]]></category>
+		<category><![CDATA[database]]></category>
+		<category><![CDATA[MySQL]]></category>
+		<category><![CDATA[php]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=453</guid>
+		<description><![CDATA[If you are running a database driven website then your data sitting in MySQL database id most important for you. In most of shared hosting there is no provision for scheduled backup of databases. So I have written a script to take backup of all databases associated with the account. [crayon-5bfab19648ed6346667556/]]]></description>
+		<wfw:commentRss>/backup-mysql-databases/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Install LAMP in UBUNTU 12.10 / 13.04 / 13.10</title>
+		<link>/install-lamp-ubuntu-12-10/</link>
+		<comments>/install-lamp-ubuntu-12-10/#respond</comments>
+		<pubDate>Thu, 06 Dec 2012 08:28:22 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Tips]]></category>
+		<category><![CDATA[Apache]]></category>
+		<category><![CDATA[database]]></category>
+		<category><![CDATA[LAMP]]></category>
+		<category><![CDATA[MySQL]]></category>
+		<category><![CDATA[php]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=433</guid>
+		<description><![CDATA[I installed Ubuntu 12.10 on my new laptop and now I have to setup LAMP on it. To setup LAMP I need to install Apache Web Server, PHP and MySQL. For installation issue following commands: [crayon-5bfab19649194099172009/] Above command will download and install Apache Web Server. It will ask for permission to download the setup file. &#8230; <a href="/install-lamp-ubuntu-12-10/" class="more-link">Continue reading <span class="screen-reader-text">Install LAMP in UBUNTU 12.10 / 13.04 / 13.10</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/install-lamp-ubuntu-12-10/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>GRUB2 &#8211; Rashid Azar&#039;s Weblog</title>
+	<atom:link href="/tag/grub2/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Thu, 28 Jun 2018 15:07:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Recover GRUB After Windows Installation</title>
+		<link>/recover-grub-after-windows-installation/</link>
+		<comments>/recover-grub-after-windows-installation/#comments</comments>
+		<pubDate>Tue, 13 Apr 2010 05:27:18 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[GRUB]]></category>
+		<category><![CDATA[GRUB2]]></category>
+		<category><![CDATA[Recover GRUB]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=82</guid>
+		<description><![CDATA[You will need a Live CD to recover GRUB after windows installation. I assume that you are going to recover an UBUNTU Box. Boot the Live CD and go to the terminal. And continue by entering: $ sudo fdisk -l This will ask your password, just enter it and press enter key. It will give &#8230; <a href="/recover-grub-after-windows-installation/" class="more-link">Continue reading <span class="screen-reader-text">Recover GRUB After Windows Installation</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/recover-grub-after-windows-installation/feed/</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+		</item>
+	</channel>
+</rss>

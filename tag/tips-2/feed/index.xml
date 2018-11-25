@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>tips &#8211; Rashid Azar&#039;s Weblog</title>
+	<atom:link href="/tag/tips-2/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Thu, 28 Jun 2018 15:07:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>XPages: Rendered Vs Loaded</title>
+		<link>/xpages-rendered-loaded/</link>
+		<comments>/xpages-rendered-loaded/#respond</comments>
+		<pubDate>Wed, 29 May 2013 17:52:31 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Lotus Notes]]></category>
+		<category><![CDATA[Tips]]></category>
+		<category><![CDATA[lotus notes]]></category>
+		<category><![CDATA[tips]]></category>
+		<category><![CDATA[xpages]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=554</guid>
+		<description><![CDATA[Today I observed runtime error in one of my XPage. I investigated later and found that the error is occuring on a custom control which should not be rendered in this scenario. I have several custom controls added on my XPage and display only one custom control based on some condition, so I have computed &#8230; <a href="/xpages-rendered-loaded/" class="more-link">Continue reading <span class="screen-reader-text">XPages: Rendered Vs Loaded</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/xpages-rendered-loaded/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

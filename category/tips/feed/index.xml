@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Tips &#8211; Rashid Azar&#039;s Weblog</title>
+	<atom:link href="/category/tips/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Thu, 28 Jun 2018 15:07:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>XPage : Dynamic field Binding</title>
+		<link>/xpage-dynamic-field-binding/</link>
+		<comments>/xpage-dynamic-field-binding/#comments</comments>
+		<pubDate>Tue, 12 Nov 2013 09:54:42 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Lotus Notes]]></category>
+		<category><![CDATA[Tips]]></category>
+		<category><![CDATA[XPages]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[lotus notes]]></category>
+		<category><![CDATA[xpages]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=582</guid>
+		<description><![CDATA[In my application I wanted to bind a viewScope variable with the field, but the key was not static. The viewScope key was generated based on some business logic. To solve this problem, I created a dataContext variable (whose name is constant) and computed the value of this (data context) variable. I wrote the code &#8230; <a href="/xpage-dynamic-field-binding/" class="more-link">Continue reading <span class="screen-reader-text">XPage : Dynamic field Binding</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/xpage-dynamic-field-binding/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>How to know validation of which control is getting failed</title>
+		<link>/xpage-validation-failed/</link>
+		<comments>/xpage-validation-failed/#comments</comments>
+		<pubDate>Wed, 23 Oct 2013 13:22:43 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Lotus Notes]]></category>
+		<category><![CDATA[Tips]]></category>
+		<category><![CDATA[XPages]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[lotus notes]]></category>
+		<category><![CDATA[xpages]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=563</guid>
+		<description><![CDATA[Sometimes in XPage applications it happens that our code do not run due to validation errors. It becomes really difficult to debug if the form contains too many fields. To simplify the debug process in this scenario I have written a code snippet which gives client id of the control for which validation is getting &#8230; <a href="/xpage-validation-failed/" class="more-link">Continue reading <span class="screen-reader-text">How to know validation of which control is getting failed</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/xpage-validation-failed/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>XPages: Rendered Vs Loaded</title>
+		<link>/xpages-rendered-loaded/</link>
+		<comments>/xpages-rendered-loaded/#respond</comments>
+		<pubDate>Wed, 29 May 2013 17:52:31 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Lotus Notes]]></category>
+		<category><![CDATA[Tips]]></category>
+		<category><![CDATA[lotus notes]]></category>
+		<category><![CDATA[tips]]></category>
+		<category><![CDATA[xpages]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=554</guid>
+		<description><![CDATA[Today I observed runtime error in one of my XPage. I investigated later and found that the error is occuring on a custom control which should not be rendered in this scenario. I have several custom controls added on my XPage and display only one custom control based on some condition, so I have computed &#8230; <a href="/xpages-rendered-loaded/" class="more-link">Continue reading <span class="screen-reader-text">XPages: Rendered Vs Loaded</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/xpages-rendered-loaded/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Lotus Notes and Git</title>
+		<link>/lotus-notes-and-git/</link>
+		<comments>/lotus-notes-and-git/#respond</comments>
+		<pubDate>Sat, 13 Apr 2013 08:16:01 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Lotus Notes]]></category>
+		<category><![CDATA[Tips]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[lotus notes]]></category>
+		<category><![CDATA[team development]]></category>
+		<category><![CDATA[version controlling]]></category>
+		<category><![CDATA[xpages]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=537</guid>
+		<description><![CDATA[If multiple developers are working on a project it is possible that they do development on their local machine(Lotus Domino server is installed on their local machine). Everybody is working on separate module so they can work independently. After the development is complete we need to merge the changes done by every developer into single &#8230; <a href="/lotus-notes-and-git/" class="more-link">Continue reading <span class="screen-reader-text">Lotus Notes and Git</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/lotus-notes-and-git/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Install LAMP in UBUNTU 12.10 / 13.04 / 13.10</title>
+		<link>/install-lamp-ubuntu-12-10/</link>
+		<comments>/install-lamp-ubuntu-12-10/#respond</comments>
+		<pubDate>Thu, 06 Dec 2012 08:28:22 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Tips]]></category>
+		<category><![CDATA[Apache]]></category>
+		<category><![CDATA[database]]></category>
+		<category><![CDATA[LAMP]]></category>
+		<category><![CDATA[MySQL]]></category>
+		<category><![CDATA[php]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=433</guid>
+		<description><![CDATA[I installed Ubuntu 12.10 on my new laptop and now I have to setup LAMP on it. To setup LAMP I need to install Apache Web Server, PHP and MySQL. For installation issue following commands: [crayon-5bfab1735435b407682390/] Above command will download and install Apache Web Server. It will ask for permission to download the setup file. &#8230; <a href="/install-lamp-ubuntu-12-10/" class="more-link">Continue reading <span class="screen-reader-text">Install LAMP in UBUNTU 12.10 / 13.04 / 13.10</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/install-lamp-ubuntu-12-10/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Sync Multiple Eclipse to a Single GitHub Repository</title>
+		<link>/sync-multiple-eclipse-single-github-repository/</link>
+		<comments>/sync-multiple-eclipse-single-github-repository/#respond</comments>
+		<pubDate>Sat, 30 Jun 2012 11:04:11 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Tips]]></category>
+		<category><![CDATA[eclipse]]></category>
+		<category><![CDATA[egit]]></category>
+		<category><![CDATA[git]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=388</guid>
+		<description><![CDATA[I configured eclipse and eGit in two different laptops to integrate my git repository with my development copy of source code. Now I can easily make changes in local repository and push it to github. But the problem is if I am editing something in first laptop and pushed it to github. Now on the &#8230; <a href="/sync-multiple-eclipse-single-github-repository/" class="more-link">Continue reading <span class="screen-reader-text">Sync Multiple Eclipse to a Single GitHub Repository</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/sync-multiple-eclipse-single-github-repository/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>XPage &#8211; Sort View Column</title>
+		<link>/xpage-sort-view-column/</link>
+		<comments>/xpage-sort-view-column/#comments</comments>
+		<pubDate>Fri, 20 Jan 2012 15:06:54 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[Javascript]]></category>
+		<category><![CDATA[Lotus Notes]]></category>
+		<category><![CDATA[Tips]]></category>
+		<category><![CDATA[lotus notes]]></category>
+		<category><![CDATA[Sort]]></category>
+		<category><![CDATA[Views]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=305</guid>
+		<description><![CDATA[I was searching for a work around to allow view column to be sortable by clicking on column header but I was not able to find any reliable solution using View Panel. Now I found a way to provide this feature using Repeat Control or Data Table. Please go through the following code. [javascript] var &#8230; <a href="/xpage-sort-view-column/" class="more-link">Continue reading <span class="screen-reader-text">XPage &#8211; Sort View Column</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/xpage-sort-view-column/feed/</wfw:commentRss>
+		<slash:comments>10</slash:comments>
+		</item>
+		<item>
+		<title>Debug Java From Lotus Notes Designer</title>
+		<link>/debug-java-from-lotus-notes-designer/</link>
+		<comments>/debug-java-from-lotus-notes-designer/#comments</comments>
+		<pubDate>Sat, 31 Dec 2011 15:48:04 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[Lotus Notes]]></category>
+		<category><![CDATA[Tips]]></category>
+		<category><![CDATA[agent]]></category>
+		<category><![CDATA[debug]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[lotus notes]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=292</guid>
+		<description><![CDATA[We do not prefer to write agents in Java just because we are not able to debug the Java agent in Lotus Notes Designer. As we think Designer do not have any debugger for Java, but let me clarify that Lotus Notes Designer 8.5.x (also known as Domino Designer in Eclipse) has in-built Java debugger. &#8230; <a href="/debug-java-from-lotus-notes-designer/" class="more-link">Continue reading <span class="screen-reader-text">Debug Java From Lotus Notes Designer</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/debug-java-from-lotus-notes-designer/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		</item>
+		<item>
+		<title>Disable X in Dojo Dialog</title>
+		<link>/disable-x-in-dojo-dialog/</link>
+		<comments>/disable-x-in-dojo-dialog/#comments</comments>
+		<pubDate>Sun, 18 Dec 2011 15:04:11 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Javascript]]></category>
+		<category><![CDATA[Tips]]></category>
+		<category><![CDATA[dojo]]></category>
+		<category><![CDATA[dojo dialog]]></category>
+		<category><![CDATA[javascript]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=198</guid>
+		<description><![CDATA[I found a trick to disable [x] on the top right corner of dojo dialog and force user to click on the close button to close the dialog box. Create a div element in your html web page and pass its id to following function to achieve this: [crayon-5bfab17354a35649920180/]]]></description>
+		<wfw:commentRss>/disable-x-in-dojo-dialog/feed/</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+		</item>
+		<item>
+		<title>How to Bind Multiline Editbox Through Repeat Control</title>
+		<link>/how-to-bind-multiline-editbox-through-repeat-control/</link>
+		<comments>/how-to-bind-multiline-editbox-through-repeat-control/#comments</comments>
+		<pubDate>Wed, 14 Sep 2011 17:45:29 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Lotus Notes]]></category>
+		<category><![CDATA[Tips]]></category>
+		<category><![CDATA[bind]]></category>
+		<category><![CDATA[lotus notes]]></category>
+		<category><![CDATA[multivalue field]]></category>
+		<category><![CDATA[repeat control]]></category>
+		<category><![CDATA[xpages]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=184</guid>
+		<description><![CDATA[I have a multi-line edit-box on my xpage which is hidden. I want to allow the user to edit its value through repeat control. I don&#8217;t want to allow the user to enter multiple values separated by comma. To achieve this functionality follow these instructions: Add a multi-line edit-box and a repeat control on your &#8230; <a href="/how-to-bind-multiline-editbox-through-repeat-control/" class="more-link">Continue reading <span class="screen-reader-text">How to Bind Multiline Editbox Through Repeat Control</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/how-to-bind-multiline-editbox-through-repeat-control/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>

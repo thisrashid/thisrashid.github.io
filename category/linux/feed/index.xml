@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Linux &#8211; Rashid Azar&#039;s Weblog</title>
+	<atom:link href="/category/linux/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Thu, 28 Jun 2018 15:07:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>How to install MongoDB on Ubuntu 16.04</title>
+		<link>/how-to-install-mongodb-on-ubuntu-16-04/</link>
+		<comments>/how-to-install-mongodb-on-ubuntu-16-04/#respond</comments>
+		<pubDate>Thu, 28 Jun 2018 15:05:00 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Linux]]></category>
+
+		<guid isPermaLink="false">/?p=663</guid>
+		<description><![CDATA[To ensure the credibility of the packages Ubuntu makes sure they are signed with GPG keys. Let’s begin by importing the GPG keys we need for the official MongoDB repository: [crayon-5bfab16b8411c245478704/] Next add the MongoDB repository in /etc/apt/sources.list.d using this command: [crayon-5bfab16b84123814748075/] Installing MongoDB [crayon-5bfab16b84125704400660/] Create service file for MongoDB [crayon-5bfab16b84127235900069/] Paste following code: [crayon-5bfab16b84128425437090/] &#8230; <a href="/how-to-install-mongodb-on-ubuntu-16-04/" class="more-link">Continue reading <span class="screen-reader-text">How to install MongoDB on Ubuntu 16.04</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/how-to-install-mongodb-on-ubuntu-16-04/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Install WordPress on Nginx</title>
+		<link>/install-wordpress-on-nginx/</link>
+		<comments>/install-wordpress-on-nginx/#respond</comments>
+		<pubDate>Wed, 18 Oct 2017 18:27:42 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[PHP]]></category>
+
+		<guid isPermaLink="false">/?p=657</guid>
+		<description><![CDATA[Download latest wordpress code: [crayon-5bfab16b84435414345702/] Extract files: [crayon-5bfab16b8443b983671055/] Copy all extracted files to /var/www/html folder: [crayon-5bfab16b8443d244067302/] Change directory to /var/www/html folder: [crayon-5bfab16b8443f558249916/] Change group and owner of all files to www-data: [crayon-5bfab16b84440241535397/] Create MySQL user for mysite.com: [crayon-5bfab16b84442841132731/] Create wp-config.php file and update as per above details. To create a virtual host please follow this &#8230; <a href="/install-wordpress-on-nginx/" class="more-link">Continue reading <span class="screen-reader-text">Install WordPress on Nginx</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/install-wordpress-on-nginx/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>SSL Setup on Nginx Server</title>
+		<link>/ssl-setup-on-nginx-server/</link>
+		<comments>/ssl-setup-on-nginx-server/#comments</comments>
+		<pubDate>Sat, 12 Aug 2017 12:41:03 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Linux]]></category>
+
+		<guid isPermaLink="false">/?p=633</guid>
+		<description><![CDATA[To add https support on your website you need to follow these steps: Get the SSL certificate There are various vendors from which you can buy SSL certificate. If you want to generate self signed SSL certificate instead of buying it, please execute below command: [crayon-5bfab16b8459a962210404/] Add [crayon-5bfab16b845a0068411260-i/] in the above command if you do &#8230; <a href="/ssl-setup-on-nginx-server/" class="more-link">Continue reading <span class="screen-reader-text">SSL Setup on Nginx Server</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/ssl-setup-on-nginx-server/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Deploy your Website Changes using Git</title>
+		<link>/deploy-your-website-changes-using-git/</link>
+		<comments>/deploy-your-website-changes-using-git/#respond</comments>
+		<pubDate>Sat, 28 Nov 2015 09:49:05 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[server]]></category>
+		<category><![CDATA[ssh]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=616</guid>
+		<description><![CDATA[It is really a bad idea to deploy website using FTP and replacing old files with new one. Let me explain you the deployment using git which makes the life easy. Before starting we need SSH client and Git to be installed on our local machine. I am assuming you already have installed these applications. &#8230; <a href="/deploy-your-website-changes-using-git/" class="more-link">Continue reading <span class="screen-reader-text">Deploy your Website Changes using Git</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/deploy-your-website-changes-using-git/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Share network drive on rdesktop</title>
+		<link>/share-network-drive-rdesktop/</link>
+		<comments>/share-network-drive-rdesktop/#respond</comments>
+		<pubDate>Sat, 27 Apr 2013 09:26:47 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[network folder]]></category>
+		<category><![CDATA[rdesktop]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=542</guid>
+		<description><![CDATA[If you want to share clipboard and map your local drive as server&#8217;s network drive, you can do this using rdesktop. [crayon-5bfab16b848f0855822028/] Once you get connected your home directory will be available on the server as network drive.]]></description>
+		<wfw:commentRss>/share-network-drive-rdesktop/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Backup MySQL Databases</title>
+		<link>/backup-mysql-databases/</link>
+		<comments>/backup-mysql-databases/#respond</comments>
+		<pubDate>Sun, 30 Dec 2012 12:02:37 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[PHP]]></category>
+		<category><![CDATA[SQL]]></category>
+		<category><![CDATA[backup]]></category>
+		<category><![CDATA[database]]></category>
+		<category><![CDATA[MySQL]]></category>
+		<category><![CDATA[php]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=453</guid>
+		<description><![CDATA[If you are running a database driven website then your data sitting in MySQL database id most important for you. In most of shared hosting there is no provision for scheduled backup of databases. So I have written a script to take backup of all databases associated with the account. [crayon-5bfab16b849cb271114319/]]]></description>
+		<wfw:commentRss>/backup-mysql-databases/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>How to install latest node.js on Ubuntu</title>
+		<link>/install-latest-node-js-ubuntu/</link>
+		<comments>/install-latest-node-js-ubuntu/#respond</comments>
+		<pubDate>Sat, 29 Dec 2012 15:46:17 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[node]]></category>
+		<category><![CDATA[node js]]></category>
+		<category><![CDATA[nodejs]]></category>
+		<category><![CDATA[ubuntu]]></category>
+		<category><![CDATA[ubuntu 12.10]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=450</guid>
+		<description><![CDATA[Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices. In most linux distributions Node.js is available in a repository which can be accessed via a package manager such as apt-get or aptitude. However in the repository of the latest Ubuntu 12.10 &#8230; <a href="/install-latest-node-js-ubuntu/" class="more-link">Continue reading <span class="screen-reader-text">How to install latest node.js on Ubuntu</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/install-latest-node-js-ubuntu/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Install LAMP in UBUNTU 12.10 / 13.04 / 13.10</title>
+		<link>/install-lamp-ubuntu-12-10/</link>
+		<comments>/install-lamp-ubuntu-12-10/#respond</comments>
+		<pubDate>Thu, 06 Dec 2012 08:28:22 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Tips]]></category>
+		<category><![CDATA[Apache]]></category>
+		<category><![CDATA[database]]></category>
+		<category><![CDATA[LAMP]]></category>
+		<category><![CDATA[MySQL]]></category>
+		<category><![CDATA[php]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=433</guid>
+		<description><![CDATA[I installed Ubuntu 12.10 on my new laptop and now I have to setup LAMP on it. To setup LAMP I need to install Apache Web Server, PHP and MySQL. For installation issue following commands: [crayon-5bfab16b84bad933159379/] Above command will download and install Apache Web Server. It will ask for permission to download the setup file. &#8230; <a href="/install-lamp-ubuntu-12-10/" class="more-link">Continue reading <span class="screen-reader-text">Install LAMP in UBUNTU 12.10 / 13.04 / 13.10</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/install-lamp-ubuntu-12-10/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Android USB Tethering in UBUNTU 12.04</title>
+		<link>/android-usb-tethering-ubuntu-12-04/</link>
+		<comments>/android-usb-tethering-ubuntu-12-04/#comments</comments>
+		<pubDate>Thu, 16 Aug 2012 05:51:25 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[tethering]]></category>
+		<category><![CDATA[usb]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=410</guid>
+		<description><![CDATA[I was struggling to use the internet connection of my Android in my laptop. I searched on google and fond that Ubuntu recongnize it automatically if USB tethering is enabled on the connected Android phone. Then I tried to enable the USB modem interface usb0 using following command: [crayon-5bfab16b84d19355873301/] it gave me following error: Ignoring &#8230; <a href="/android-usb-tethering-ubuntu-12-04/" class="more-link">Continue reading <span class="screen-reader-text">Android USB Tethering in UBUNTU 12.04</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/android-usb-tethering-ubuntu-12-04/feed/</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+		</item>
+		<item>
+		<title>Sync Multiple Eclipse to a Single GitHub Repository</title>
+		<link>/sync-multiple-eclipse-single-github-repository/</link>
+		<comments>/sync-multiple-eclipse-single-github-repository/#respond</comments>
+		<pubDate>Sat, 30 Jun 2012 11:04:11 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Tips]]></category>
+		<category><![CDATA[eclipse]]></category>
+		<category><![CDATA[egit]]></category>
+		<category><![CDATA[git]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=388</guid>
+		<description><![CDATA[I configured eclipse and eGit in two different laptops to integrate my git repository with my development copy of source code. Now I can easily make changes in local repository and push it to github. But the problem is if I am editing something in first laptop and pushed it to github. Now on the &#8230; <a href="/sync-multiple-eclipse-single-github-repository/" class="more-link">Continue reading <span class="screen-reader-text">Sync Multiple Eclipse to a Single GitHub Repository</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/sync-multiple-eclipse-single-github-repository/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Social &#8211; Rashid Azar&#039;s Weblog</title>
+	<atom:link href="/category/social/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Thu, 28 Jun 2018 15:07:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>फ़ातिमा शैख़</title>
+		<link>/fatima-sheikh/</link>
+		<comments>/fatima-sheikh/#respond</comments>
+		<pubDate>Tue, 03 Jan 2017 19:08:30 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Social]]></category>
+
+		<guid isPermaLink="false">/?p=630</guid>
+		<description><![CDATA[Dilip C Mandal बाबू लिखते हैं कि महिला स्कूल खोलने वाली सावित्री बाई फूले का साथ देने वाली फ़ातिमा शेख को नायिका के तौर पर मुसलमानो को स्थापित करना चाहिए था &#124; मैं आपसे सहमत नहीं हूँ। &#8220;फ़ातिमा शैख़ मुसलमानों की और सावित्रीबाई दलितों की&#8221; ऐसा सोचना इन दोनों महिलाओं का अपमान है। इन्होंने अपने &#8230; <a href="/fatima-sheikh/" class="more-link">Continue reading <span class="screen-reader-text">फ़ातिमा शैख़</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/fatima-sheikh/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Myth or Media hype</title>
+		<link>/myth-or-media-hype/</link>
+		<comments>/myth-or-media-hype/#respond</comments>
+		<pubDate>Tue, 09 Apr 2013 17:17:39 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Social]]></category>
+		<category><![CDATA[islam]]></category>
+		<category><![CDATA[jihad]]></category>
+		<category><![CDATA[muslim]]></category>
+		<category><![CDATA[terrorism]]></category>
+		<category><![CDATA[terrorist]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=527</guid>
+		<description><![CDATA[Now a days many people make a comment that &#8220;All Muslims Are Not Terrorist But All Terrorist Are Muslim.&#8221; To make the point clear let use first understand the definition of terrorism. Terrorism: &#8220;The use of violence and intimidation in the pursuit of political aims.&#8221; &#8211; Oxford Dictionary I am giving following facts from history &#8230; <a href="/myth-or-media-hype/" class="more-link">Continue reading <span class="screen-reader-text">Myth or Media hype</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/myth-or-media-hype/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

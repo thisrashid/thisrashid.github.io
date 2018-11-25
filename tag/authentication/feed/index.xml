@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>authentication &#8211; Rashid Azar&#039;s Weblog</title>
+	<atom:link href="/tag/authentication/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Thu, 28 Jun 2018 15:07:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Setting Auth &#038; ACL in CakePHP</title>
+		<link>/setting-auth-and-acl-in-cakephp/</link>
+		<comments>/setting-auth-and-acl-in-cakephp/#respond</comments>
+		<pubDate>Tue, 25 Oct 2011 08:02:24 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[PHP]]></category>
+		<category><![CDATA[ACL]]></category>
+		<category><![CDATA[Auth]]></category>
+		<category><![CDATA[authentication]]></category>
+		<category><![CDATA[cakephp]]></category>
+		<category><![CDATA[permission]]></category>
+		<category><![CDATA[php]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=207</guid>
+		<description><![CDATA[In last few days I learned CakePHP and now I am finding it very interesting. I learned the basics about creation of models and their relationships. Now its time to move ahead. I am exploring more features and I started with inbuilt Auth component of CakePHP which I found very interesting. Let me tell you &#8230; <a href="/setting-auth-and-acl-in-cakephp/" class="more-link">Continue reading <span class="screen-reader-text">Setting Auth &#038; ACL in CakePHP</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/setting-auth-and-acl-in-cakephp/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

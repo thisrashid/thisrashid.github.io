@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>khat &#8211; Rashid Azar&#039;s Weblog</title>
+	<atom:link href="/tag/khat/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Thu, 28 Jun 2018 15:07:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Adhure Khat</title>
+		<link>/adhure-khat/</link>
+		<comments>/adhure-khat/#respond</comments>
+		<pubDate>Tue, 16 Feb 2010 06:59:47 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Poetry]]></category>
+		<category><![CDATA[adhure khat]]></category>
+		<category><![CDATA[khat]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=52</guid>
+		<description><![CDATA[Use maine hi likha tha  k lehjay barf ho jayen to phir pighla nahi kartey, parindey darr k ud jayen to phr lauta nahi kartey, usy maine he likha tha, yaqeen uth jaye to shayad kabi wapas nahi ata hawaon ka koi tufan kabi barish nahi lata, use maine he likha tha k shesha toot &#8230; <a href="/adhure-khat/" class="more-link">Continue reading <span class="screen-reader-text">Adhure Khat</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/adhure-khat/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

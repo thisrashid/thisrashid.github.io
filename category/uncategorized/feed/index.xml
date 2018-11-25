@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Uncategorized &#8211; Rashid Azar&#039;s Weblog</title>
+	<atom:link href="/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Thu, 28 Jun 2018 15:07:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>आपकी सोच सड़ चुकी है</title>
+		<link>/%e0%a4%86%e0%a4%aa%e0%a4%95%e0%a5%80-%e0%a4%b8%e0%a5%8b%e0%a4%9a-%e0%a4%b8%e0%a5%9c-%e0%a4%9a%e0%a5%81%e0%a4%95%e0%a5%80-%e0%a4%b9%e0%a5%88/</link>
+		<comments>/%e0%a4%86%e0%a4%aa%e0%a4%95%e0%a5%80-%e0%a4%b8%e0%a5%8b%e0%a4%9a-%e0%a4%b8%e0%a5%9c-%e0%a4%9a%e0%a5%81%e0%a4%95%e0%a5%80-%e0%a4%b9%e0%a5%88/#respond</comments>
+		<pubDate>Sun, 13 Nov 2016 11:18:45 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">/?p=622</guid>
+		<description><![CDATA[]]></description>
+		<wfw:commentRss>/%e0%a4%86%e0%a4%aa%e0%a4%95%e0%a5%80-%e0%a4%b8%e0%a5%8b%e0%a4%9a-%e0%a4%b8%e0%a5%9c-%e0%a4%9a%e0%a5%81%e0%a4%95%e0%a5%80-%e0%a4%b9%e0%a5%88/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Deploy your Website Changes using Git</title>
+		<link>/deploy-your-website-changes-using-git/</link>
+		<comments>/deploy-your-website-changes-using-git/#respond</comments>
+		<pubDate>Sat, 28 Nov 2015 09:49:05 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[server]]></category>
+		<category><![CDATA[ssh]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=616</guid>
+		<description><![CDATA[It is really a bad idea to deploy website using FTP and replacing old files with new one. Let me explain you the deployment using git which makes the life easy. Before starting we need SSH client and Git to be installed on our local machine. I am assuming you already have installed these applications. &#8230; <a href="/deploy-your-website-changes-using-git/" class="more-link">Continue reading <span class="screen-reader-text">Deploy your Website Changes using Git</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/deploy-your-website-changes-using-git/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>सुलहनामा</title>
+		<link>/%e0%a4%b8%e0%a5%81%e0%a4%b2%e0%a4%b9%e0%a4%a8%e0%a4%be%e0%a4%ae%e0%a4%be/</link>
+		<comments>/%e0%a4%b8%e0%a5%81%e0%a4%b2%e0%a4%b9%e0%a4%a8%e0%a4%be%e0%a4%ae%e0%a4%be/#respond</comments>
+		<pubDate>Tue, 07 Jul 2015 11:36:34 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">/?p=628</guid>
+		<description><![CDATA[जब मुहम्मद (SA) पहली बार हज करने के लिए मक्का जा रहे थे उस वक़्त उन्हें मक्का वालों ने आने नहीं दिया और जंग के लिए भी तैयार थे। मक्का वालों को ये भी मालूम था कि वो रसूलुल्लाह की सेना का मुक़ाबला कभी नहीं कर पाएंगे फिर भी ज़िद पैर थे कि उन्हें मक्का &#8230; <a href="/%e0%a4%b8%e0%a5%81%e0%a4%b2%e0%a4%b9%e0%a4%a8%e0%a4%be%e0%a4%ae%e0%a4%be/" class="more-link">Continue reading <span class="screen-reader-text">सुलहनामा</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/%e0%a4%b8%e0%a5%81%e0%a4%b2%e0%a4%b9%e0%a4%a8%e0%a4%be%e0%a4%ae%e0%a4%be/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Best Project Management Award</title>
+		<link>/best-project-management-award/</link>
+		<comments>/best-project-management-award/#comments</comments>
+		<pubDate>Thu, 18 Oct 2012 09:52:34 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=425</guid>
+		<description><![CDATA[When I was in Reliance Infra I developed a web application Simplify for monitoring daily execution of work on site. It is a process automation tool for Road business. This is a web application built on XPages Technology. On 17th Oct,12 it has been awarded as Best Project Management Tool by Cyber Media India Ltd. It &#8230; <a href="/best-project-management-award/" class="more-link">Continue reading <span class="screen-reader-text">Best Project Management Award</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/best-project-management-award/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Why Indian students are disliked abroad?</title>
+		<link>/why-indian-students-are-disliked-abroad/</link>
+		<comments>/why-indian-students-are-disliked-abroad/#comments</comments>
+		<pubDate>Sat, 21 Aug 2010 16:07:24 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[indians]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=98</guid>
+		<description><![CDATA[It was the first day of a school in USA and a new Indian student named Chandrasekhar Subramanian entered the fourth grade. The teacher said, &#8220;Let&#8217;s begin by reviewing some American History. Who said &#8216;Give me Liberty , or give me Death&#8217;?&#8221; She saw a sea of blank faces, except for Chandrasekhar, who had his &#8230; <a href="/why-indian-students-are-disliked-abroad/" class="more-link">Continue reading <span class="screen-reader-text">Why Indian students are disliked abroad?</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/why-indian-students-are-disliked-abroad/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Trace Mobile Number Location &#038; Operator in India</title>
+		<link>/trace-mobile-number-location-operator-in-india/</link>
+		<comments>/trace-mobile-number-location-operator-in-india/#comments</comments>
+		<pubDate>Tue, 30 Mar 2010 04:46:10 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[mobile]]></category>
+		<category><![CDATA[trace]]></category>
+		<category><![CDATA[trace location]]></category>
+		<category><![CDATA[trace mobile number]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=78</guid>
+		<description><![CDATA[Several times we need to trace the mobile number&#8217;s location and operator for various reasons. If you are one of them then this tool will help you. Just click HERE.]]></description>
+		<wfw:commentRss>/trace-mobile-number-location-operator-in-india/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Rahul and Parul</title>
+		<link>/rahul-and-parul/</link>
+		<comments>/rahul-and-parul/#comments</comments>
+		<pubDate>Mon, 22 Feb 2010 18:58:02 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=63</guid>
+		<description><![CDATA[Parul, a 25-year old workaholic who is working in a software firm. Parul’s came to office at 9 or 10 in the morning and left at 11 or 12 at night. Even on weekends she would come down to office. She had no social life, no friends. The only people she use to be with &#8230; <a href="/rahul-and-parul/" class="more-link">Continue reading <span class="screen-reader-text">Rahul and Parul</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/rahul-and-parul/feed/</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+		</item>
+	</channel>
+</rss>

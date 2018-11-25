@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>java &#8211; Rashid Azar&#039;s Weblog</title>
+	<atom:link href="/tag/java-2/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Thu, 28 Jun 2018 15:07:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>How to know validation of which control is getting failed</title>
+		<link>/xpage-validation-failed/</link>
+		<comments>/xpage-validation-failed/#comments</comments>
+		<pubDate>Wed, 23 Oct 2013 13:22:43 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Lotus Notes]]></category>
+		<category><![CDATA[Tips]]></category>
+		<category><![CDATA[XPages]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[lotus notes]]></category>
+		<category><![CDATA[xpages]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=563</guid>
+		<description><![CDATA[Sometimes in XPage applications it happens that our code do not run due to validation errors. It becomes really difficult to debug if the form contains too many fields. To simplify the debug process in this scenario I have written a code snippet which gives client id of the control for which validation is getting &#8230; <a href="/xpage-validation-failed/" class="more-link">Continue reading <span class="screen-reader-text">How to know validation of which control is getting failed</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/xpage-validation-failed/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>My First Android App</title>
+		<link>/android-app/</link>
+		<comments>/android-app/#respond</comments>
+		<pubDate>Sat, 30 Jun 2012 13:26:46 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[Mobile Development]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[database]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[mobile]]></category>
+		<category><![CDATA[mobile application]]></category>
+		<category><![CDATA[trace]]></category>
+		<category><![CDATA[trace location]]></category>
+		<category><![CDATA[trace mobile number]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=392</guid>
+		<description><![CDATA[I was learning android native application development. I developed a sample application to detect the operator and circle of a given mobile number. This is an database application. You can follow the development at GitHub. If you want to install it on you android mobile click here. If you do not have android phone then &#8230; <a href="/android-app/" class="more-link">Continue reading <span class="screen-reader-text">My First Android App</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/android-app/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Debug Java From Lotus Notes Designer</title>
+		<link>/debug-java-from-lotus-notes-designer/</link>
+		<comments>/debug-java-from-lotus-notes-designer/#comments</comments>
+		<pubDate>Sat, 31 Dec 2011 15:48:04 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[Lotus Notes]]></category>
+		<category><![CDATA[Tips]]></category>
+		<category><![CDATA[agent]]></category>
+		<category><![CDATA[debug]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[lotus notes]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=292</guid>
+		<description><![CDATA[We do not prefer to write agents in Java just because we are not able to debug the Java agent in Lotus Notes Designer. As we think Designer do not have any debugger for Java, but let me clarify that Lotus Notes Designer 8.5.x (also known as Domino Designer in Eclipse) has in-built Java debugger. &#8230; <a href="/debug-java-from-lotus-notes-designer/" class="more-link">Continue reading <span class="screen-reader-text">Debug Java From Lotus Notes Designer</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/debug-java-from-lotus-notes-designer/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		</item>
+		<item>
+		<title>Lets Start Java</title>
+		<link>/lets-start-java/</link>
+		<comments>/lets-start-java/#respond</comments>
+		<pubDate>Tue, 19 Jul 2011 17:46:55 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[eclipse]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[tomcat]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=140</guid>
+		<description><![CDATA[From last few days I was struggling with Eclipse and Tomcat. I was not able to execute servlet from Eclipse IDE. After doing a lot of research finally I got the solution. All I need to do is to copy a folder &#8220;tomcat/webapps/ROOT&#8221; to &#8220;workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps&#8221; (or &#8230;/tmp1/wtwebapps if you already configured another server). Source: http://www.coreservlets.com/Apache-Tomcat-Tutorial/tomcat-7-with-eclipse.html]]></description>
+		<wfw:commentRss>/lets-start-java/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

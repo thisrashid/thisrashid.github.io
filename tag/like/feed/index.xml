@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>like &#8211; Rashid Azar&#039;s Weblog</title>
+	<atom:link href="/tag/like/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Thu, 28 Jun 2018 15:07:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Rashid&#8217;s Socialize Button</title>
+		<link>/rashids-socialize-button/</link>
+		<comments>/rashids-socialize-button/#comments</comments>
+		<pubDate>Mon, 30 Jan 2012 18:06:04 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Plugins]]></category>
+		<category><![CDATA[+1]]></category>
+		<category><![CDATA[facebook]]></category>
+		<category><![CDATA[Facebook Like]]></category>
+		<category><![CDATA[Facebook Like Button]]></category>
+		<category><![CDATA[fb]]></category>
+		<category><![CDATA[g+]]></category>
+		<category><![CDATA[google plus]]></category>
+		<category><![CDATA[google+]]></category>
+		<category><![CDATA[gplus]]></category>
+		<category><![CDATA[like]]></category>
+		<category><![CDATA[plusone]]></category>
+		<category><![CDATA[tweet]]></category>
+		<category><![CDATA[twitter]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=355</guid>
+		<description><![CDATA[Now I am back with my new plugin. With help of this plugin you can share your post on GooglePlus, twitter and facebook. You can also download this plugin from here Installation: Download the plugin. Upload to your blog (/wp-content/plugins/). Activate it. You are done!]]></description>
+		<wfw:commentRss>/rashids-socialize-button/feed/</wfw:commentRss>
+		<slash:comments>34</slash:comments>
+		</item>
+		<item>
+		<title>Rashid&#8217;s Facebook Like Box Plugin for WordPress</title>
+		<link>/rashids-facebook-like-box-plugin-for-wordpress/</link>
+		<comments>/rashids-facebook-like-box-plugin-for-wordpress/#comments</comments>
+		<pubDate>Thu, 26 Jan 2012 14:32:12 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Plugins]]></category>
+		<category><![CDATA[facebook]]></category>
+		<category><![CDATA[Facebook Like]]></category>
+		<category><![CDATA[Facebook Like Box]]></category>
+		<category><![CDATA[fb]]></category>
+		<category><![CDATA[like]]></category>
+		<category><![CDATA[like box]]></category>
+		<category><![CDATA[likebox]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=321</guid>
+		<description><![CDATA[I was searching for a plugin to add Facebook Like Box on my blog but I did not found any suitable plugin which suits my purpose. I found few plugins at WordPress.org but they don&#8217;t support my wordpress version. So I decided to write my own plugin. You can also download it and use it at &#8230; <a href="/rashids-facebook-like-box-plugin-for-wordpress/" class="more-link">Continue reading <span class="screen-reader-text">Rashid&#8217;s Facebook Like Box Plugin for WordPress</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/rashids-facebook-like-box-plugin-for-wordpress/feed/</wfw:commentRss>
+		<slash:comments>19</slash:comments>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>religion &#8211; Rashid Azar&#039;s Weblog</title>
+	<atom:link href="/tag/religion-2/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Thu, 28 Jun 2018 15:07:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Lesson: Never Try to Justify</title>
+		<link>/lesson-justify/</link>
+		<comments>/lesson-justify/#respond</comments>
+		<pubDate>Sat, 01 Jun 2013 07:43:28 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Religion]]></category>
+		<category><![CDATA[islam]]></category>
+		<category><![CDATA[religion]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=557</guid>
+		<description><![CDATA[A a very beautiful story!! about Imam Al-Shafi&#8217;ie .. While Imam Shafi’i was sitting with his students, a maid came to him and said : “O Imam ! how come you fornicate by night and then turn to a preacher by day ?!!” The students of Imam Shafi’ looked at him waiting for him to &#8230; <a href="/lesson-justify/" class="more-link">Continue reading <span class="screen-reader-text">Lesson: Never Try to Justify</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/lesson-justify/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

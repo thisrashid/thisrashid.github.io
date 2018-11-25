@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>image handling &#8211; Rashid Azar&#039;s Weblog</title>
+	<atom:link href="/tag/image-handling/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Thu, 28 Jun 2018 15:07:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>File Upload in CakePHP</title>
+		<link>/file-upload-in-cakephp/</link>
+		<comments>/file-upload-in-cakephp/#respond</comments>
+		<pubDate>Sun, 30 Oct 2011 11:27:52 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[PHP]]></category>
+		<category><![CDATA[cahephp]]></category>
+		<category><![CDATA[file upload]]></category>
+		<category><![CDATA[image handling]]></category>
+		<category><![CDATA[image upload]]></category>
+		<category><![CDATA[php]]></category>
+		<category><![CDATA[upload]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=216</guid>
+		<description><![CDATA[In this post I will describe how to upload images in CakePHP. It will automatically upload and move the uploaded file to the wanted location. It will automatically rename the file if there is another file with same name exist. A lot of other features are also available. Download Upload Component file and copy it &#8230; <a href="/file-upload-in-cakephp/" class="more-link">Continue reading <span class="screen-reader-text">File Upload in CakePHP</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/file-upload-in-cakephp/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

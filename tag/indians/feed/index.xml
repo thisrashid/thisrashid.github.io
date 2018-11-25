@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>indians &#8211; Rashid Azar&#039;s Weblog</title>
+	<atom:link href="/tag/indians/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Thu, 28 Jun 2018 15:07:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Why Indian students are disliked abroad?</title>
+		<link>/why-indian-students-are-disliked-abroad/</link>
+		<comments>/why-indian-students-are-disliked-abroad/#comments</comments>
+		<pubDate>Sat, 21 Aug 2010 16:07:24 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[indians]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=98</guid>
+		<description><![CDATA[It was the first day of a school in USA and a new Indian student named Chandrasekhar Subramanian entered the fourth grade. The teacher said, &#8220;Let&#8217;s begin by reviewing some American History. Who said &#8216;Give me Liberty , or give me Death&#8217;?&#8221; She saw a sea of blank faces, except for Chandrasekhar, who had his &#8230; <a href="/why-indian-students-are-disliked-abroad/" class="more-link">Continue reading <span class="screen-reader-text">Why Indian students are disliked abroad?</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/why-indian-students-are-disliked-abroad/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>itihas &#8211; Rashid Azar&#039;s Weblog</title>
+	<atom:link href="/tag/itihas/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Thu, 28 Jun 2018 15:07:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>परीक्षा</title>
+		<link>/pariksha/</link>
+		<comments>/pariksha/#comments</comments>
+		<pubDate>Wed, 24 Feb 2010 18:14:31 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Poetry]]></category>
+		<category><![CDATA[itihas]]></category>
+		<category><![CDATA[pariksha]]></category>
+		<category><![CDATA[peom]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=70</guid>
+		<description><![CDATA[इतिहास परीक्षा थी उस दिन डर से हृदय धड़कता था, जबसे जागा सुबह तभी से बाया नयन फड़कता था, जो उत्तर मैंने याद किये उसमे भी आधे याद हुवे, वो भी स्कूल पहुँचने तक यादों में ही बर्बाद हुवे, जो सीट दिखाई दी खाली उस पर जाकर मैं बैठा, था एक निरीक्षक कमरे में वो &#8230; <a href="/pariksha/" class="more-link">Continue reading <span class="screen-reader-text">परीक्षा</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/pariksha/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+	</channel>
+</rss>

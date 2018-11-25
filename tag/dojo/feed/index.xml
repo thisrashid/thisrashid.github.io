@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>dojo &#8211; Rashid Azar&#039;s Weblog</title>
+	<atom:link href="/tag/dojo/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Thu, 28 Jun 2018 15:07:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Make data table row clickable using dojo</title>
+		<link>/data-table-row-clickable-dojo/</link>
+		<comments>/data-table-row-clickable-dojo/#respond</comments>
+		<pubDate>Thu, 17 Jan 2013 16:44:22 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Lotus Notes]]></category>
+		<category><![CDATA[dojo]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[lotus notes]]></category>
+		<category><![CDATA[xpages]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=494</guid>
+		<description><![CDATA[To make the entire row clickable copy below code and paste it in on load event of the XPage. [crayon-5bfab195074ef667012448/]]]></description>
+		<wfw:commentRss>/data-table-row-clickable-dojo/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Disable X in Dojo Dialog</title>
+		<link>/disable-x-in-dojo-dialog/</link>
+		<comments>/disable-x-in-dojo-dialog/#comments</comments>
+		<pubDate>Sun, 18 Dec 2011 15:04:11 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Javascript]]></category>
+		<category><![CDATA[Tips]]></category>
+		<category><![CDATA[dojo]]></category>
+		<category><![CDATA[dojo dialog]]></category>
+		<category><![CDATA[javascript]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=198</guid>
+		<description><![CDATA[I found a trick to disable [x] on the top right corner of dojo dialog and force user to click on the close button to close the dialog box. Create a div element in your html web page and pass its id to following function to achieve this: [crayon-5bfab19507730270888376/]]]></description>
+		<wfw:commentRss>/disable-x-in-dojo-dialog/feed/</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+		</item>
+	</channel>
+</rss>

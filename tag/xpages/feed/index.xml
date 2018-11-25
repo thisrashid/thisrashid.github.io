@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>xpages &#8211; Rashid Azar&#039;s Weblog</title>
+	<atom:link href="/tag/xpages/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Thu, 28 Jun 2018 15:07:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>XPage : Dynamic field Binding</title>
+		<link>/xpage-dynamic-field-binding/</link>
+		<comments>/xpage-dynamic-field-binding/#comments</comments>
+		<pubDate>Tue, 12 Nov 2013 09:54:42 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Lotus Notes]]></category>
+		<category><![CDATA[Tips]]></category>
+		<category><![CDATA[XPages]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[lotus notes]]></category>
+		<category><![CDATA[xpages]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=582</guid>
+		<description><![CDATA[In my application I wanted to bind a viewScope variable with the field, but the key was not static. The viewScope key was generated based on some business logic. To solve this problem, I created a dataContext variable (whose name is constant) and computed the value of this (data context) variable. I wrote the code &#8230; <a href="/xpage-dynamic-field-binding/" class="more-link">Continue reading <span class="screen-reader-text">XPage : Dynamic field Binding</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/xpage-dynamic-field-binding/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>How to know validation of which control is getting failed</title>
+		<link>/xpage-validation-failed/</link>
+		<comments>/xpage-validation-failed/#comments</comments>
+		<pubDate>Wed, 23 Oct 2013 13:22:43 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Lotus Notes]]></category>
+		<category><![CDATA[Tips]]></category>
+		<category><![CDATA[XPages]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[lotus notes]]></category>
+		<category><![CDATA[xpages]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=563</guid>
+		<description><![CDATA[Sometimes in XPage applications it happens that our code do not run due to validation errors. It becomes really difficult to debug if the form contains too many fields. To simplify the debug process in this scenario I have written a code snippet which gives client id of the control for which validation is getting &#8230; <a href="/xpage-validation-failed/" class="more-link">Continue reading <span class="screen-reader-text">How to know validation of which control is getting failed</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/xpage-validation-failed/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>XPages: Rendered Vs Loaded</title>
+		<link>/xpages-rendered-loaded/</link>
+		<comments>/xpages-rendered-loaded/#respond</comments>
+		<pubDate>Wed, 29 May 2013 17:52:31 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Lotus Notes]]></category>
+		<category><![CDATA[Tips]]></category>
+		<category><![CDATA[lotus notes]]></category>
+		<category><![CDATA[tips]]></category>
+		<category><![CDATA[xpages]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=554</guid>
+		<description><![CDATA[Today I observed runtime error in one of my XPage. I investigated later and found that the error is occuring on a custom control which should not be rendered in this scenario. I have several custom controls added on my XPage and display only one custom control based on some condition, so I have computed &#8230; <a href="/xpages-rendered-loaded/" class="more-link">Continue reading <span class="screen-reader-text">XPages: Rendered Vs Loaded</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/xpages-rendered-loaded/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Get list of XPages</title>
+		<link>/list-xpages/</link>
+		<comments>/list-xpages/#respond</comments>
+		<pubDate>Thu, 23 May 2013 13:13:39 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Lotus Notes]]></category>
+		<category><![CDATA[XPages]]></category>
+		<category><![CDATA[lotus notes]]></category>
+		<category><![CDATA[xpages]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=549</guid>
+		<description><![CDATA[Following code will return the list of all XPages available in the specified database: [crayon-5bfab19594277473048324/]]]></description>
+		<wfw:commentRss>/list-xpages/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Lotus Notes and Git</title>
+		<link>/lotus-notes-and-git/</link>
+		<comments>/lotus-notes-and-git/#respond</comments>
+		<pubDate>Sat, 13 Apr 2013 08:16:01 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Lotus Notes]]></category>
+		<category><![CDATA[Tips]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[lotus notes]]></category>
+		<category><![CDATA[team development]]></category>
+		<category><![CDATA[version controlling]]></category>
+		<category><![CDATA[xpages]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=537</guid>
+		<description><![CDATA[If multiple developers are working on a project it is possible that they do development on their local machine(Lotus Domino server is installed on their local machine). Everybody is working on separate module so they can work independently. After the development is complete we need to merge the changes done by every developer into single &#8230; <a href="/lotus-notes-and-git/" class="more-link">Continue reading <span class="screen-reader-text">Lotus Notes and Git</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/lotus-notes-and-git/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>IBM Notes 9</title>
+		<link>/ibm-notes-9/</link>
+		<comments>/ibm-notes-9/#respond</comments>
+		<pubDate>Thu, 14 Mar 2013 06:38:39 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Lotus Notes]]></category>
+		<category><![CDATA[lotus notes]]></category>
+		<category><![CDATA[xpages]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=515</guid>
+		<description><![CDATA[Yesterday I delivered a presentation in my company premises on new features of IBM Notes 9 and its advantages to the business. [slideshare id=17705134&#038;doc=ibmnotes9-130326013637-phpapp02]]]></description>
+		<wfw:commentRss>/ibm-notes-9/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Make data table row clickable using dojo</title>
+		<link>/data-table-row-clickable-dojo/</link>
+		<comments>/data-table-row-clickable-dojo/#respond</comments>
+		<pubDate>Thu, 17 Jan 2013 16:44:22 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Lotus Notes]]></category>
+		<category><![CDATA[dojo]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[lotus notes]]></category>
+		<category><![CDATA[xpages]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=494</guid>
+		<description><![CDATA[To make the entire row clickable copy below code and paste it in on load event of the XPage. [crayon-5bfab19594352986002985/]]]></description>
+		<wfw:commentRss>/data-table-row-clickable-dojo/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Documentation</title>
+		<link>/useless-documentation/</link>
+		<comments>/useless-documentation/#comments</comments>
+		<pubDate>Sat, 05 May 2012 18:06:52 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Lotus Notes]]></category>
+		<category><![CDATA[lotus notes]]></category>
+		<category><![CDATA[xpages]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=366</guid>
+		<description><![CDATA[I was given a task to list down all controls and theirs labels along with some other attributes like style, style class, parent id, etc and prepare an Excel sheet. It was so boring and tedious task for me. This is a repetitive task in which I need to copy attributes value and paste it &#8230; <a href="/useless-documentation/" class="more-link">Continue reading <span class="screen-reader-text">Documentation</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/useless-documentation/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>How to Bind Multiline Editbox Through Repeat Control</title>
+		<link>/how-to-bind-multiline-editbox-through-repeat-control/</link>
+		<comments>/how-to-bind-multiline-editbox-through-repeat-control/#comments</comments>
+		<pubDate>Wed, 14 Sep 2011 17:45:29 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Lotus Notes]]></category>
+		<category><![CDATA[Tips]]></category>
+		<category><![CDATA[bind]]></category>
+		<category><![CDATA[lotus notes]]></category>
+		<category><![CDATA[multivalue field]]></category>
+		<category><![CDATA[repeat control]]></category>
+		<category><![CDATA[xpages]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=184</guid>
+		<description><![CDATA[I have a multi-line edit-box on my xpage which is hidden. I want to allow the user to edit its value through repeat control. I don&#8217;t want to allow the user to enter multiple values separated by comma. To achieve this functionality follow these instructions: Add a multi-line edit-box and a repeat control on your &#8230; <a href="/how-to-bind-multiline-editbox-through-repeat-control/" class="more-link">Continue reading <span class="screen-reader-text">How to Bind Multiline Editbox Through Repeat Control</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/how-to-bind-multiline-editbox-through-repeat-control/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>XPages &#8211; Rashid Azar&#039;s Weblog</title>
+	<atom:link href="/category/lotus-notes/xpages-lotus-notes/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Thu, 28 Jun 2018 15:07:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>XPage : Dynamic field Binding</title>
+		<link>/xpage-dynamic-field-binding/</link>
+		<comments>/xpage-dynamic-field-binding/#comments</comments>
+		<pubDate>Tue, 12 Nov 2013 09:54:42 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Lotus Notes]]></category>
+		<category><![CDATA[Tips]]></category>
+		<category><![CDATA[XPages]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[lotus notes]]></category>
+		<category><![CDATA[xpages]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=582</guid>
+		<description><![CDATA[In my application I wanted to bind a viewScope variable with the field, but the key was not static. The viewScope key was generated based on some business logic. To solve this problem, I created a dataContext variable (whose name is constant) and computed the value of this (data context) variable. I wrote the code &#8230; <a href="/xpage-dynamic-field-binding/" class="more-link">Continue reading <span class="screen-reader-text">XPage : Dynamic field Binding</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/xpage-dynamic-field-binding/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>XPage – Sort View Column &#8211; Optimized</title>
+		<link>/xpage-sort-view-column-optimized/</link>
+		<comments>/xpage-sort-view-column-optimized/#respond</comments>
+		<pubDate>Fri, 01 Nov 2013 12:32:45 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Lotus Notes]]></category>
+		<category><![CDATA[XPages]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=573</guid>
+		<description><![CDATA[In my previous post I discussed about sorting a view column using java.util.TreeMap. In this post I shall discuss about some optimizations to address the issue with duplicate values (refer to the line 19-21 in previous post). Let us calculate time complexity of existing code: From here: http://java.sun.com/javase/6/docs/api/java/util/TreeMap.html This implementation provides guaranteed log(n) time cost &#8230; <a href="/xpage-sort-view-column-optimized/" class="more-link">Continue reading <span class="screen-reader-text">XPage – Sort View Column &#8211; Optimized</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/xpage-sort-view-column-optimized/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>How to know validation of which control is getting failed</title>
+		<link>/xpage-validation-failed/</link>
+		<comments>/xpage-validation-failed/#comments</comments>
+		<pubDate>Wed, 23 Oct 2013 13:22:43 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Lotus Notes]]></category>
+		<category><![CDATA[Tips]]></category>
+		<category><![CDATA[XPages]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[lotus notes]]></category>
+		<category><![CDATA[xpages]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=563</guid>
+		<description><![CDATA[Sometimes in XPage applications it happens that our code do not run due to validation errors. It becomes really difficult to debug if the form contains too many fields. To simplify the debug process in this scenario I have written a code snippet which gives client id of the control for which validation is getting &#8230; <a href="/xpage-validation-failed/" class="more-link">Continue reading <span class="screen-reader-text">How to know validation of which control is getting failed</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/xpage-validation-failed/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Get list of XPages</title>
+		<link>/list-xpages/</link>
+		<comments>/list-xpages/#respond</comments>
+		<pubDate>Thu, 23 May 2013 13:13:39 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Lotus Notes]]></category>
+		<category><![CDATA[XPages]]></category>
+		<category><![CDATA[lotus notes]]></category>
+		<category><![CDATA[xpages]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=549</guid>
+		<description><![CDATA[Following code will return the list of all XPages available in the specified database: [crayon-5bfab17362906943180569/]]]></description>
+		<wfw:commentRss>/list-xpages/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

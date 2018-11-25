@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>git &#8211; Rashid Azar&#039;s Weblog</title>
+	<atom:link href="/tag/git/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Thu, 28 Jun 2018 15:07:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Deploy your Website Changes using Git</title>
+		<link>/deploy-your-website-changes-using-git/</link>
+		<comments>/deploy-your-website-changes-using-git/#respond</comments>
+		<pubDate>Sat, 28 Nov 2015 09:49:05 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[server]]></category>
+		<category><![CDATA[ssh]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=616</guid>
+		<description><![CDATA[It is really a bad idea to deploy website using FTP and replacing old files with new one. Let me explain you the deployment using git which makes the life easy. Before starting we need SSH client and Git to be installed on our local machine. I am assuming you already have installed these applications. &#8230; <a href="/deploy-your-website-changes-using-git/" class="more-link">Continue reading <span class="screen-reader-text">Deploy your Website Changes using Git</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/deploy-your-website-changes-using-git/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Lotus Notes and Git</title>
+		<link>/lotus-notes-and-git/</link>
+		<comments>/lotus-notes-and-git/#respond</comments>
+		<pubDate>Sat, 13 Apr 2013 08:16:01 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Lotus Notes]]></category>
+		<category><![CDATA[Tips]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[lotus notes]]></category>
+		<category><![CDATA[team development]]></category>
+		<category><![CDATA[version controlling]]></category>
+		<category><![CDATA[xpages]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=537</guid>
+		<description><![CDATA[If multiple developers are working on a project it is possible that they do development on their local machine(Lotus Domino server is installed on their local machine). Everybody is working on separate module so they can work independently. After the development is complete we need to merge the changes done by every developer into single &#8230; <a href="/lotus-notes-and-git/" class="more-link">Continue reading <span class="screen-reader-text">Lotus Notes and Git</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/lotus-notes-and-git/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Sync Multiple Eclipse to a Single GitHub Repository</title>
+		<link>/sync-multiple-eclipse-single-github-repository/</link>
+		<comments>/sync-multiple-eclipse-single-github-repository/#respond</comments>
+		<pubDate>Sat, 30 Jun 2012 11:04:11 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Tips]]></category>
+		<category><![CDATA[eclipse]]></category>
+		<category><![CDATA[egit]]></category>
+		<category><![CDATA[git]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=388</guid>
+		<description><![CDATA[I configured eclipse and eGit in two different laptops to integrate my git repository with my development copy of source code. Now I can easily make changes in local repository and push it to github. But the problem is if I am editing something in first laptop and pushed it to github. Now on the &#8230; <a href="/sync-multiple-eclipse-single-github-repository/" class="more-link">Continue reading <span class="screen-reader-text">Sync Multiple Eclipse to a Single GitHub Repository</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/sync-multiple-eclipse-single-github-repository/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

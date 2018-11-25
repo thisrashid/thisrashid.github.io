@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>agent &#8211; Rashid Azar&#039;s Weblog</title>
+	<atom:link href="/tag/agent/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Thu, 28 Jun 2018 15:07:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Debug Java From Lotus Notes Designer</title>
+		<link>/debug-java-from-lotus-notes-designer/</link>
+		<comments>/debug-java-from-lotus-notes-designer/#comments</comments>
+		<pubDate>Sat, 31 Dec 2011 15:48:04 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[Lotus Notes]]></category>
+		<category><![CDATA[Tips]]></category>
+		<category><![CDATA[agent]]></category>
+		<category><![CDATA[debug]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[lotus notes]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=292</guid>
+		<description><![CDATA[We do not prefer to write agents in Java just because we are not able to debug the Java agent in Lotus Notes Designer. As we think Designer do not have any debugger for Java, but let me clarify that Lotus Notes Designer 8.5.x (also known as Domino Designer in Eclipse) has in-built Java debugger. &#8230; <a href="/debug-java-from-lotus-notes-designer/" class="more-link">Continue reading <span class="screen-reader-text">Debug Java From Lotus Notes Designer</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/debug-java-from-lotus-notes-designer/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		</item>
+	</channel>
+</rss>

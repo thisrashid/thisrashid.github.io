@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>openshift &#8211; Rashid Azar&#039;s Weblog</title>
+	<atom:link href="/tag/openshift/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Thu, 28 Jun 2018 15:07:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>CakePHP to Red Hat&#8217;s Openshift</title>
+		<link>/cakephp-to-red-hats-openshift/</link>
+		<comments>/cakephp-to-red-hats-openshift/#respond</comments>
+		<pubDate>Sun, 29 Apr 2012 12:24:16 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[PHP]]></category>
+		<category><![CDATA[cake]]></category>
+		<category><![CDATA[cakephp]]></category>
+		<category><![CDATA[cloud]]></category>
+		<category><![CDATA[framework]]></category>
+		<category><![CDATA[openshift]]></category>
+		<category><![CDATA[php]]></category>
+		<category><![CDATA[php framework]]></category>
+		<category><![CDATA[red hat]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=372</guid>
+		<description><![CDATA[There is only 6 easy steps to deploy your application to cloud. Step 1 : Sign Up Just visit to openshift and sign up a new account. Step 2 : Install client tool For installation instruction of client visit here Step 3 : Create domain [crayon-5bfab19832476895958393/] Domain is the unique namespace for every account. Execute &#8230; <a href="/cakephp-to-red-hats-openshift/" class="more-link">Continue reading <span class="screen-reader-text">CakePHP to Red Hat&#8217;s Openshift</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/cakephp-to-red-hats-openshift/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments for Rashid Azar&#039;s Weblog</title>
+	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Wed, 18 Oct 2017 18:27:49 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Comment on SSL Setup on Nginx Server by Install WordPress on Nginx &#124; Rashid Azar&#039;s Weblog</title>
+		<link>/ssl-setup-on-nginx-server/#comment-6800</link>
+		<dc:creator><![CDATA[Install WordPress on Nginx &#124; Rashid Azar&#039;s Weblog]]></dc:creator>
+		<pubDate>Wed, 18 Oct 2017 18:27:49 +0000</pubDate>
+		<guid isPermaLink="false">/?p=633#comment-6800</guid>
+		<description><![CDATA[[&#8230;] To create a virtual host please follow this post [&#8230;]]]></description>
+		<content:encoded><![CDATA[<p>[&#8230;] To create a virtual host please follow this post [&#8230;]</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on आत्मग्लानि by firdaus</title>
+		<link>/%e0%a4%86%e0%a4%a4%e0%a5%8d%e0%a4%ae%e0%a4%97%e0%a5%8d%e0%a4%b2%e0%a4%be%e0%a4%a8%e0%a4%bf/#comment-6025</link>
+		<dc:creator><![CDATA[firdaus]]></dc:creator>
+		<pubDate>Sun, 18 Sep 2016 05:57:59 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=570#comment-6025</guid>
+		<description><![CDATA[Fantastic poem... long way to go, Mr. Adnan Kafeel]]></description>
+		<content:encoded><![CDATA[<p>Fantastic poem&#8230; long way to go, Mr. Adnan Kafeel</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on XPage : Dynamic field Binding by Shraddha</title>
+		<link>/xpage-dynamic-field-binding/#comment-4162</link>
+		<dc:creator><![CDATA[Shraddha]]></dc:creator>
+		<pubDate>Tue, 04 Aug 2015 06:11:39 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=582#comment-4162</guid>
+		<description><![CDATA[Hi,
+Seems you know lot about Lotus Notes and have done Android as well. I have a question. I want to access Lotus Notes i.e get and set meeting from Android application.
+I am getting exception for integrating java code in Android. How can I make this possible.
+I tried creating jar for java code but i am unable to run it.
+
+Please help.]]></description>
+		<content:encoded><![CDATA[<p>Hi,<br />
+Seems you know lot about Lotus Notes and have done Android as well. I have a question. I want to access Lotus Notes i.e get and set meeting from Android application.<br />
+I am getting exception for integrating java code in Android. How can I make this possible.<br />
+I tried creating jar for java code but i am unable to run it.</p>
+<p>Please help.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Rashid&#8217;s Facebook Like Box Plugin for WordPress by h4x0r</title>
+		<link>/rashids-facebook-like-box-plugin-for-wordpress/#comment-84</link>
+		<dc:creator><![CDATA[h4x0r]]></dc:creator>
+		<pubDate>Sat, 08 Feb 2014 16:48:58 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=321#comment-84</guid>
+		<description><![CDATA[nice plugin, but your face as plugin icon is disturbing :)]]></description>
+		<content:encoded><![CDATA[<p>nice plugin, but your face as plugin icon is disturbing 🙂</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on How to know validation of which control is getting failed by Naveen</title>
+		<link>/xpage-validation-failed/#comment-133</link>
+		<dc:creator><![CDATA[Naveen]]></dc:creator>
+		<pubDate>Mon, 28 Oct 2013 05:55:33 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=563#comment-133</guid>
+		<description><![CDATA[Nice! You should probably put this one in XSnippets.]]></description>
+		<content:encoded><![CDATA[<p>Nice! You should probably put this one in XSnippets.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Rashid&#8217;s Facebook Like Box Plugin for WordPress by admin</title>
+		<link>/rashids-facebook-like-box-plugin-for-wordpress/#comment-83</link>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Thu, 11 Jul 2013 09:14:39 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=321#comment-83</guid>
+		<description><![CDATA[The pictures are not controlled by this plugin, you need to check it with facebook.]]></description>
+		<content:encoded><![CDATA[<p>The pictures are not controlled by this plugin, you need to check it with facebook.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Rashid&#8217;s Facebook Like Box Plugin for WordPress by Arnout</title>
+		<link>/rashids-facebook-like-box-plugin-for-wordpress/#comment-82</link>
+		<dc:creator><![CDATA[Arnout]]></dc:creator>
+		<pubDate>Fri, 05 Jul 2013 07:25:06 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=321#comment-82</guid>
+		<description><![CDATA[Hi Rashid,
+
+The plugin doesm&#039;t show al of the pictures anymore. Can you check what goes wrong?
+
+Greetings
+
+Arnout]]></description>
+		<content:encoded><![CDATA[<p>Hi Rashid,</p>
+<p>The plugin doesm&#8217;t show al of the pictures anymore. Can you check what goes wrong?</p>
+<p>Greetings</p>
+<p>Arnout</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on परीक्षा by admin</title>
+		<link>/pariksha/#comment-21</link>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Sun, 23 Jun 2013 18:00:46 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=70#comment-21</guid>
+		<description><![CDATA[:D]]></description>
+		<content:encoded><![CDATA[<p>😀</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on परीक्षा by Rakesh Tripathi</title>
+		<link>/pariksha/#comment-20</link>
+		<dc:creator><![CDATA[Rakesh Tripathi]]></dc:creator>
+		<pubDate>Fri, 14 Jun 2013 18:13:41 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=70#comment-20</guid>
+		<description><![CDATA[Good One........Aisa itihaas hota toh mn bhi ithihaaskar hota..]]></description>
+		<content:encoded><![CDATA[<p>Good One&#8230;&#8230;..Aisa itihaas hota toh mn bhi ithihaaskar hota..</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Rashid&#8217;s Socialize Button by Gwen</title>
+		<link>/rashids-socialize-button/#comment-118</link>
+		<dc:creator><![CDATA[Gwen]]></dc:creator>
+		<pubDate>Sun, 09 Jun 2013 04:40:51 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=355#comment-118</guid>
+		<description><![CDATA[Hi Rashid, you must have caught it exactly in a moment I was trying an other one. I had this one installed: RA-Socialize Button. In any case, I found one that displays on my website now, so don&#039;t worry :-)]]></description>
+		<content:encoded><![CDATA[<p>Hi Rashid, you must have caught it exactly in a moment I was trying an other one. I had this one installed: RA-Socialize Button. In any case, I found one that displays on my website now, so don&#8217;t worry 🙂</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

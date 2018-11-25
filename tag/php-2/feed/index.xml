@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>php &#8211; Rashid Azar&#039;s Weblog</title>
+	<atom:link href="/tag/php-2/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Thu, 28 Jun 2018 15:07:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Backup MySQL Databases</title>
+		<link>/backup-mysql-databases/</link>
+		<comments>/backup-mysql-databases/#respond</comments>
+		<pubDate>Sun, 30 Dec 2012 12:02:37 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[PHP]]></category>
+		<category><![CDATA[SQL]]></category>
+		<category><![CDATA[backup]]></category>
+		<category><![CDATA[database]]></category>
+		<category><![CDATA[MySQL]]></category>
+		<category><![CDATA[php]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=453</guid>
+		<description><![CDATA[If you are running a database driven website then your data sitting in MySQL database id most important for you. In most of shared hosting there is no provision for scheduled backup of databases. So I have written a script to take backup of all databases associated with the account. [crayon-5bfab1966ff82580479048/]]]></description>
+		<wfw:commentRss>/backup-mysql-databases/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Install LAMP in UBUNTU 12.10 / 13.04 / 13.10</title>
+		<link>/install-lamp-ubuntu-12-10/</link>
+		<comments>/install-lamp-ubuntu-12-10/#respond</comments>
+		<pubDate>Thu, 06 Dec 2012 08:28:22 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Tips]]></category>
+		<category><![CDATA[Apache]]></category>
+		<category><![CDATA[database]]></category>
+		<category><![CDATA[LAMP]]></category>
+		<category><![CDATA[MySQL]]></category>
+		<category><![CDATA[php]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=433</guid>
+		<description><![CDATA[I installed Ubuntu 12.10 on my new laptop and now I have to setup LAMP on it. To setup LAMP I need to install Apache Web Server, PHP and MySQL. For installation issue following commands: [crayon-5bfab1967022d411805336/] Above command will download and install Apache Web Server. It will ask for permission to download the setup file. &#8230; <a href="/install-lamp-ubuntu-12-10/" class="more-link">Continue reading <span class="screen-reader-text">Install LAMP in UBUNTU 12.10 / 13.04 / 13.10</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/install-lamp-ubuntu-12-10/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>CakePHP to Red Hat&#8217;s Openshift</title>
+		<link>/cakephp-to-red-hats-openshift/</link>
+		<comments>/cakephp-to-red-hats-openshift/#respond</comments>
+		<pubDate>Sun, 29 Apr 2012 12:24:16 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[PHP]]></category>
+		<category><![CDATA[cake]]></category>
+		<category><![CDATA[cakephp]]></category>
+		<category><![CDATA[cloud]]></category>
+		<category><![CDATA[framework]]></category>
+		<category><![CDATA[openshift]]></category>
+		<category><![CDATA[php]]></category>
+		<category><![CDATA[php framework]]></category>
+		<category><![CDATA[red hat]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=372</guid>
+		<description><![CDATA[There is only 6 easy steps to deploy your application to cloud. Step 1 : Sign Up Just visit to openshift and sign up a new account. Step 2 : Install client tool For installation instruction of client visit here Step 3 : Create domain [crayon-5bfab196703ee706439959/] Domain is the unique namespace for every account. Execute &#8230; <a href="/cakephp-to-red-hats-openshift/" class="more-link">Continue reading <span class="screen-reader-text">CakePHP to Red Hat&#8217;s Openshift</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/cakephp-to-red-hats-openshift/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>File Upload in CakePHP</title>
+		<link>/file-upload-in-cakephp/</link>
+		<comments>/file-upload-in-cakephp/#respond</comments>
+		<pubDate>Sun, 30 Oct 2011 11:27:52 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[PHP]]></category>
+		<category><![CDATA[cahephp]]></category>
+		<category><![CDATA[file upload]]></category>
+		<category><![CDATA[image handling]]></category>
+		<category><![CDATA[image upload]]></category>
+		<category><![CDATA[php]]></category>
+		<category><![CDATA[upload]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=216</guid>
+		<description><![CDATA[In this post I will describe how to upload images in CakePHP. It will automatically upload and move the uploaded file to the wanted location. It will automatically rename the file if there is another file with same name exist. A lot of other features are also available. Download Upload Component file and copy it &#8230; <a href="/file-upload-in-cakephp/" class="more-link">Continue reading <span class="screen-reader-text">File Upload in CakePHP</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/file-upload-in-cakephp/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Setting Auth &#038; ACL in CakePHP</title>
+		<link>/setting-auth-and-acl-in-cakephp/</link>
+		<comments>/setting-auth-and-acl-in-cakephp/#respond</comments>
+		<pubDate>Tue, 25 Oct 2011 08:02:24 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[PHP]]></category>
+		<category><![CDATA[ACL]]></category>
+		<category><![CDATA[Auth]]></category>
+		<category><![CDATA[authentication]]></category>
+		<category><![CDATA[cakephp]]></category>
+		<category><![CDATA[permission]]></category>
+		<category><![CDATA[php]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=207</guid>
+		<description><![CDATA[In last few days I learned CakePHP and now I am finding it very interesting. I learned the basics about creation of models and their relationships. Now its time to move ahead. I am exploring more features and I started with inbuilt Auth component of CakePHP which I found very interesting. Let me tell you &#8230; <a href="/setting-auth-and-acl-in-cakephp/" class="more-link">Continue reading <span class="screen-reader-text">Setting Auth &#038; ACL in CakePHP</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/setting-auth-and-acl-in-cakephp/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Lets Bake in PHP using CakePHP</title>
+		<link>/lets-bake-in-php-using-cakephp/</link>
+		<comments>/lets-bake-in-php-using-cakephp/#respond</comments>
+		<pubDate>Sat, 15 Oct 2011 13:35:19 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[PHP]]></category>
+		<category><![CDATA[bakery]]></category>
+		<category><![CDATA[cake]]></category>
+		<category><![CDATA[cakephp]]></category>
+		<category><![CDATA[framework]]></category>
+		<category><![CDATA[php]]></category>
+		<category><![CDATA[php framework]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=204</guid>
+		<description><![CDATA[From last week I decided to learn CakePHP, which is a open source web application framework for producing web applications. It is written in PHP, modeled after the concepts of Ruby on Rails, and distributed under the MIT License. I started with the official documentation. But I am not finding it very useful when you &#8230; <a href="/lets-bake-in-php-using-cakephp/" class="more-link">Continue reading <span class="screen-reader-text">Lets Bake in PHP using CakePHP</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/lets-bake-in-php-using-cakephp/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

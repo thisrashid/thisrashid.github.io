@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Rashid Azar&#039;s Weblog</title>
+	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Thu, 28 Jun 2018 15:07:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>How to install MongoDB on Ubuntu 16.04</title>
+		<link>/how-to-install-mongodb-on-ubuntu-16-04/</link>
+		<comments>/how-to-install-mongodb-on-ubuntu-16-04/#respond</comments>
+		<pubDate>Thu, 28 Jun 2018 15:05:00 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Linux]]></category>
+
+		<guid isPermaLink="false">/?p=663</guid>
+		<description><![CDATA[To ensure the credibility of the packages Ubuntu makes sure they are signed with GPG keys. Let’s begin by importing the GPG keys we need for the official MongoDB repository: [crayon-5bfaac0f6c69f632284340/] Next add the MongoDB repository in /etc/apt/sources.list.d using this command: [crayon-5bfaac0f6c6a6873569840/] Installing MongoDB [crayon-5bfaac0f6c6a8360891966/] Create service file for MongoDB [crayon-5bfaac0f6c6ab293004322/] Paste following code: [crayon-5bfaac0f6c6ac336758769/] &#8230; <a href="/how-to-install-mongodb-on-ubuntu-16-04/" class="more-link">Continue reading <span class="screen-reader-text">How to install MongoDB on Ubuntu 16.04</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/how-to-install-mongodb-on-ubuntu-16-04/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Install WordPress on Nginx</title>
+		<link>/install-wordpress-on-nginx/</link>
+		<comments>/install-wordpress-on-nginx/#respond</comments>
+		<pubDate>Wed, 18 Oct 2017 18:27:42 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[PHP]]></category>
+
+		<guid isPermaLink="false">/?p=657</guid>
+		<description><![CDATA[Download latest wordpress code: [crayon-5bfaac0f6c9b2296365424/] Extract files: [crayon-5bfaac0f6c9b8238360763/] Copy all extracted files to /var/www/html folder: [crayon-5bfaac0f6c9ba223273565/] Change directory to /var/www/html folder: [crayon-5bfaac0f6c9bc075919216/] Change group and owner of all files to www-data: [crayon-5bfaac0f6c9bd630466947/] Create MySQL user for mysite.com: [crayon-5bfaac0f6c9bf697661910/] Create wp-config.php file and update as per above details. To create a virtual host please follow this &#8230; <a href="/install-wordpress-on-nginx/" class="more-link">Continue reading <span class="screen-reader-text">Install WordPress on Nginx</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/install-wordpress-on-nginx/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>SSL Setup on Nginx Server</title>
+		<link>/ssl-setup-on-nginx-server/</link>
+		<comments>/ssl-setup-on-nginx-server/#comments</comments>
+		<pubDate>Sat, 12 Aug 2017 12:41:03 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Linux]]></category>
+
+		<guid isPermaLink="false">/?p=633</guid>
+		<description><![CDATA[To add https support on your website you need to follow these steps: Get the SSL certificate There are various vendors from which you can buy SSL certificate. If you want to generate self signed SSL certificate instead of buying it, please execute below command: [crayon-5bfaac0f6cb0c655229912/] Add [crayon-5bfaac0f6cb11881654690-i/] in the above command if you do &#8230; <a href="/ssl-setup-on-nginx-server/" class="more-link">Continue reading <span class="screen-reader-text">SSL Setup on Nginx Server</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/ssl-setup-on-nginx-server/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>फ़ातिमा शैख़</title>
+		<link>/fatima-sheikh/</link>
+		<comments>/fatima-sheikh/#respond</comments>
+		<pubDate>Tue, 03 Jan 2017 19:08:30 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Social]]></category>
+
+		<guid isPermaLink="false">/?p=630</guid>
+		<description><![CDATA[Dilip C Mandal बाबू लिखते हैं कि महिला स्कूल खोलने वाली सावित्री बाई फूले का साथ देने वाली फ़ातिमा शेख को नायिका के तौर पर मुसलमानो को स्थापित करना चाहिए था &#124; मैं आपसे सहमत नहीं हूँ। &#8220;फ़ातिमा शैख़ मुसलमानों की और सावित्रीबाई दलितों की&#8221; ऐसा सोचना इन दोनों महिलाओं का अपमान है। इन्होंने अपने &#8230; <a href="/fatima-sheikh/" class="more-link">Continue reading <span class="screen-reader-text">फ़ातिमा शैख़</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/fatima-sheikh/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>आपकी सोच सड़ चुकी है</title>
+		<link>/%e0%a4%86%e0%a4%aa%e0%a4%95%e0%a5%80-%e0%a4%b8%e0%a5%8b%e0%a4%9a-%e0%a4%b8%e0%a5%9c-%e0%a4%9a%e0%a5%81%e0%a4%95%e0%a5%80-%e0%a4%b9%e0%a5%88/</link>
+		<comments>/%e0%a4%86%e0%a4%aa%e0%a4%95%e0%a5%80-%e0%a4%b8%e0%a5%8b%e0%a4%9a-%e0%a4%b8%e0%a5%9c-%e0%a4%9a%e0%a5%81%e0%a4%95%e0%a5%80-%e0%a4%b9%e0%a5%88/#respond</comments>
+		<pubDate>Sun, 13 Nov 2016 11:18:45 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">/?p=622</guid>
+		<description><![CDATA[]]></description>
+		<wfw:commentRss>/%e0%a4%86%e0%a4%aa%e0%a4%95%e0%a5%80-%e0%a4%b8%e0%a5%8b%e0%a4%9a-%e0%a4%b8%e0%a5%9c-%e0%a4%9a%e0%a5%81%e0%a4%95%e0%a5%80-%e0%a4%b9%e0%a5%88/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>इमाम हुसैन</title>
+		<link>/imam-hussain/</link>
+		<comments>/imam-hussain/#respond</comments>
+		<pubDate>Tue, 11 Oct 2016 14:40:51 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Religion]]></category>
+
+		<guid isPermaLink="false">/?p=626</guid>
+		<description><![CDATA[कुछ लोग मानते हैं हुसैन (RA) ने सत्ता के लिए युद्ध किया। मुमकिन है कि शायद उन्होंने कभी दिमाग़ का इस्तेमाल न किया हो। चलिए मैं short cut में कहानी सुनाता हुँ। इमाम हुसैन (RA) अपने कुछ दोस्तों और परिवारवालों के साथ कूफ़ा के लिए रवाना हुए। काफिले के कुछ महत्वपूर्ण लोग निम्नलिखित थे: 1. &#8230; <a href="/imam-hussain/" class="more-link">Continue reading <span class="screen-reader-text">इमाम हुसैन</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/imam-hussain/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Deploy your Website Changes using Git</title>
+		<link>/deploy-your-website-changes-using-git/</link>
+		<comments>/deploy-your-website-changes-using-git/#respond</comments>
+		<pubDate>Sat, 28 Nov 2015 09:49:05 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[server]]></category>
+		<category><![CDATA[ssh]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=616</guid>
+		<description><![CDATA[It is really a bad idea to deploy website using FTP and replacing old files with new one. Let me explain you the deployment using git which makes the life easy. Before starting we need SSH client and Git to be installed on our local machine. I am assuming you already have installed these applications. &#8230; <a href="/deploy-your-website-changes-using-git/" class="more-link">Continue reading <span class="screen-reader-text">Deploy your Website Changes using Git</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/deploy-your-website-changes-using-git/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>सुलहनामा</title>
+		<link>/%e0%a4%b8%e0%a5%81%e0%a4%b2%e0%a4%b9%e0%a4%a8%e0%a4%be%e0%a4%ae%e0%a4%be/</link>
+		<comments>/%e0%a4%b8%e0%a5%81%e0%a4%b2%e0%a4%b9%e0%a4%a8%e0%a4%be%e0%a4%ae%e0%a4%be/#respond</comments>
+		<pubDate>Tue, 07 Jul 2015 11:36:34 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">/?p=628</guid>
+		<description><![CDATA[जब मुहम्मद (SA) पहली बार हज करने के लिए मक्का जा रहे थे उस वक़्त उन्हें मक्का वालों ने आने नहीं दिया और जंग के लिए भी तैयार थे। मक्का वालों को ये भी मालूम था कि वो रसूलुल्लाह की सेना का मुक़ाबला कभी नहीं कर पाएंगे फिर भी ज़िद पैर थे कि उन्हें मक्का &#8230; <a href="/%e0%a4%b8%e0%a5%81%e0%a4%b2%e0%a4%b9%e0%a4%a8%e0%a4%be%e0%a4%ae%e0%a4%be/" class="more-link">Continue reading <span class="screen-reader-text">सुलहनामा</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/%e0%a4%b8%e0%a5%81%e0%a4%b2%e0%a4%b9%e0%a4%a8%e0%a4%be%e0%a4%ae%e0%a4%be/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>क्या हक़ हासिल करना ज़रूरी है ?</title>
+		<link>/%e0%a4%95%e0%a5%8d%e0%a4%af%e0%a4%be-%e0%a4%b9%e0%a5%98-%e0%a4%b9%e0%a4%be%e0%a4%b8%e0%a4%bf%e0%a4%b2-%e0%a4%95%e0%a4%b0%e0%a4%a8%e0%a4%be-%e0%a5%9b%e0%a4%b0%e0%a5%82%e0%a4%b0%e0%a5%80-%e0%a4%b9/</link>
+		<comments>/%e0%a4%95%e0%a5%8d%e0%a4%af%e0%a4%be-%e0%a4%b9%e0%a5%98-%e0%a4%b9%e0%a4%be%e0%a4%b8%e0%a4%bf%e0%a4%b2-%e0%a4%95%e0%a4%b0%e0%a4%a8%e0%a4%be-%e0%a5%9b%e0%a4%b0%e0%a5%82%e0%a4%b0%e0%a5%80-%e0%a4%b9/#respond</comments>
+		<pubDate>Sun, 07 Jun 2015 13:17:49 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Religion]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=612</guid>
+		<description><![CDATA[जब मुहम्मद (SA) पहली बार हज करने के लिए मक्का जा रहे थे उस वक़्त उन्हें मक्का वालों ने आने नहीं दिया और जंग के लिए भी तैयार थे। मक्का वालों को ये भी मालूम था कि वो रसूलुल्लाह की सेना का मुक़ाबला कभी नहीं कर पाएंगे फिर भी ज़िद पैर थे कि उन्हें मक्का &#8230; <a href="/%e0%a4%95%e0%a5%8d%e0%a4%af%e0%a4%be-%e0%a4%b9%e0%a5%98-%e0%a4%b9%e0%a4%be%e0%a4%b8%e0%a4%bf%e0%a4%b2-%e0%a4%95%e0%a4%b0%e0%a4%a8%e0%a4%be-%e0%a5%9b%e0%a4%b0%e0%a5%82%e0%a4%b0%e0%a5%80-%e0%a4%b9/" class="more-link">Continue reading <span class="screen-reader-text">क्या हक़ हासिल करना ज़रूरी है ?</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/%e0%a4%95%e0%a5%8d%e0%a4%af%e0%a4%be-%e0%a4%b9%e0%a5%98-%e0%a4%b9%e0%a4%be%e0%a4%b8%e0%a4%bf%e0%a4%b2-%e0%a4%95%e0%a4%b0%e0%a4%a8%e0%a4%be-%e0%a5%9b%e0%a4%b0%e0%a5%82%e0%a4%b0%e0%a5%80-%e0%a4%b9/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>XPage : Dynamic field Binding</title>
+		<link>/xpage-dynamic-field-binding/</link>
+		<comments>/xpage-dynamic-field-binding/#comments</comments>
+		<pubDate>Tue, 12 Nov 2013 09:54:42 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Lotus Notes]]></category>
+		<category><![CDATA[Tips]]></category>
+		<category><![CDATA[XPages]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[lotus notes]]></category>
+		<category><![CDATA[xpages]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=582</guid>
+		<description><![CDATA[In my application I wanted to bind a viewScope variable with the field, but the key was not static. The viewScope key was generated based on some business logic. To solve this problem, I created a dataContext variable (whose name is constant) and computed the value of this (data context) variable. I wrote the code &#8230; <a href="/xpage-dynamic-field-binding/" class="more-link">Continue reading <span class="screen-reader-text">XPage : Dynamic field Binding</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/xpage-dynamic-field-binding/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>

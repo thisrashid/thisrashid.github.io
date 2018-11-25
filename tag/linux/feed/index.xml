@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Linux &#8211; Rashid Azar&#039;s Weblog</title>
+	<atom:link href="/tag/linux/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Thu, 28 Jun 2018 15:07:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>How to install latest node.js on Ubuntu</title>
+		<link>/install-latest-node-js-ubuntu/</link>
+		<comments>/install-latest-node-js-ubuntu/#respond</comments>
+		<pubDate>Sat, 29 Dec 2012 15:46:17 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[node]]></category>
+		<category><![CDATA[node js]]></category>
+		<category><![CDATA[nodejs]]></category>
+		<category><![CDATA[ubuntu]]></category>
+		<category><![CDATA[ubuntu 12.10]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=450</guid>
+		<description><![CDATA[Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices. In most linux distributions Node.js is available in a repository which can be accessed via a package manager such as apt-get or aptitude. However in the repository of the latest Ubuntu 12.10 &#8230; <a href="/install-latest-node-js-ubuntu/" class="more-link">Continue reading <span class="screen-reader-text">How to install latest node.js on Ubuntu</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/install-latest-node-js-ubuntu/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Install LAMP in UBUNTU 12.10 / 13.04 / 13.10</title>
+		<link>/install-lamp-ubuntu-12-10/</link>
+		<comments>/install-lamp-ubuntu-12-10/#respond</comments>
+		<pubDate>Thu, 06 Dec 2012 08:28:22 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Tips]]></category>
+		<category><![CDATA[Apache]]></category>
+		<category><![CDATA[database]]></category>
+		<category><![CDATA[LAMP]]></category>
+		<category><![CDATA[MySQL]]></category>
+		<category><![CDATA[php]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=433</guid>
+		<description><![CDATA[I installed Ubuntu 12.10 on my new laptop and now I have to setup LAMP on it. To setup LAMP I need to install Apache Web Server, PHP and MySQL. For installation issue following commands: [crayon-5bfab195da814904704782/] Above command will download and install Apache Web Server. It will ask for permission to download the setup file. &#8230; <a href="/install-lamp-ubuntu-12-10/" class="more-link">Continue reading <span class="screen-reader-text">Install LAMP in UBUNTU 12.10 / 13.04 / 13.10</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/install-lamp-ubuntu-12-10/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Android USB Tethering in UBUNTU 12.04</title>
+		<link>/android-usb-tethering-ubuntu-12-04/</link>
+		<comments>/android-usb-tethering-ubuntu-12-04/#comments</comments>
+		<pubDate>Thu, 16 Aug 2012 05:51:25 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[tethering]]></category>
+		<category><![CDATA[usb]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=410</guid>
+		<description><![CDATA[I was struggling to use the internet connection of my Android in my laptop. I searched on google and fond that Ubuntu recongnize it automatically if USB tethering is enabled on the connected Android phone. Then I tried to enable the USB modem interface usb0 using following command: [crayon-5bfab195da970544133658/] it gave me following error: Ignoring &#8230; <a href="/android-usb-tethering-ubuntu-12-04/" class="more-link">Continue reading <span class="screen-reader-text">Android USB Tethering in UBUNTU 12.04</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/android-usb-tethering-ubuntu-12-04/feed/</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+		</item>
+		<item>
+		<title>Change Network Card MAC Address in Ubuntu</title>
+		<link>/change-network-card-mac-address-in-ubuntu/</link>
+		<comments>/change-network-card-mac-address-in-ubuntu/#comments</comments>
+		<pubDate>Fri, 24 Jun 2011 16:08:46 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[MAC]]></category>
+		<category><![CDATA[Networking]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=122</guid>
+		<description><![CDATA[There are a lot of reasons you might want to manually set your MAC address for your network card. To change this setting, we’ll need to edit the /etc/network/interfaces file. You can choose to use a different editor if you’d like. sudo gedit /etc/network/interfaces You should see the line for your network interface, which is usually &#8230; <a href="/change-network-card-mac-address-in-ubuntu/" class="more-link">Continue reading <span class="screen-reader-text">Change Network Card MAC Address in Ubuntu</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/change-network-card-mac-address-in-ubuntu/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>METHOD FOR ENABLING NET CONNECTION USING AIRTEL GPRS CONNECTION ON LINUX</title>
+		<link>/method-for-enabling-net-connection-using-airtel-gprs-connection-on-linux/</link>
+		<comments>/method-for-enabling-net-connection-using-airtel-gprs-connection-on-linux/#comments</comments>
+		<pubDate>Sun, 05 Dec 2010 16:43:28 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Networking]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=117</guid>
+		<description><![CDATA[PREREQUISITES -&#62; u shud have a USB cable to connect ur phone to the laptop/system. -&#62; check whether ur phone shows the USB connected symbol on connecting. FIRST STEP: run the command :wvdialconf create , on the terminal , it will show the output as following, [root@localhost ~]# wvdialconf create Scanning your serial ports for &#8230; <a href="/method-for-enabling-net-connection-using-airtel-gprs-connection-on-linux/" class="more-link">Continue reading <span class="screen-reader-text">METHOD FOR ENABLING NET CONNECTION USING AIRTEL GPRS CONNECTION ON LINUX</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/method-for-enabling-net-connection-using-airtel-gprs-connection-on-linux/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Recover GRUB After Windows Installation</title>
+		<link>/recover-grub-after-windows-installation/</link>
+		<comments>/recover-grub-after-windows-installation/#comments</comments>
+		<pubDate>Tue, 13 Apr 2010 05:27:18 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[GRUB]]></category>
+		<category><![CDATA[GRUB2]]></category>
+		<category><![CDATA[Recover GRUB]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=82</guid>
+		<description><![CDATA[You will need a Live CD to recover GRUB after windows installation. I assume that you are going to recover an UBUNTU Box. Boot the Live CD and go to the terminal. And continue by entering: $ sudo fdisk -l This will ask your password, just enter it and press enter key. It will give &#8230; <a href="/recover-grub-after-windows-installation/" class="more-link">Continue reading <span class="screen-reader-text">Recover GRUB After Windows Installation</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/recover-grub-after-windows-installation/feed/</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+		</item>
+	</channel>
+</rss>

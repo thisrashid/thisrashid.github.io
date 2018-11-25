@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>वो कहती है &#8211; Rashid Azar&#039;s Weblog</title>
+	<atom:link href="/tag/%E0%A4%B5%E0%A5%8B-%E0%A4%95%E0%A4%B9%E0%A4%A4%E0%A5%80-%E0%A4%B9%E0%A5%88/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Thu, 28 Jun 2018 15:07:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>वो कहती है</title>
+		<link>/%e0%a4%b5%e0%a5%8b-%e0%a4%95%e0%a4%b9%e0%a4%a4%e0%a5%80-%e0%a4%b9%e0%a5%88/</link>
+		<comments>/%e0%a4%b5%e0%a5%8b-%e0%a4%95%e0%a4%b9%e0%a4%a4%e0%a5%80-%e0%a4%b9%e0%a5%88/#comments</comments>
+		<pubDate>Tue, 20 Apr 2010 19:19:36 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Poetry]]></category>
+		<category><![CDATA[वो कहती है]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=85</guid>
+		<description><![CDATA[वो कहती है सुनो जाना, मुहब्बत मोम का घर है, तपेशी बदगुमानी की, कही पिघला न दे इसको, मैं कहता हूँ कि जिस दिल में, ज़रा भी बदगुमानी हो, वहां कुछ और हो तो हो, मोहब्बत हो नहीं सकती, वो कहती है, सदा ऐसे ही, क्या तुम मुझको चाहोगे, कि मैं इसमें कमी बिलकुल गंवारा &#8230; <a href="/%e0%a4%b5%e0%a5%8b-%e0%a4%95%e0%a4%b9%e0%a4%a4%e0%a5%80-%e0%a4%b9%e0%a5%88/" class="more-link">Continue reading <span class="screen-reader-text">वो कहती है</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/%e0%a4%b5%e0%a5%8b-%e0%a4%95%e0%a4%b9%e0%a4%a4%e0%a5%80-%e0%a4%b9%e0%a5%88/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>online chat &#8211; Rashid Azar&#039;s Weblog</title>
+	<atom:link href="/tag/online-chat/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Thu, 28 Jun 2018 15:07:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>RA-Zopim</title>
+		<link>/ra-zopim/</link>
+		<comments>/ra-zopim/#respond</comments>
+		<pubDate>Fri, 15 Mar 2013 04:40:47 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Plugins]]></category>
+		<category><![CDATA[chat]]></category>
+		<category><![CDATA[livechat]]></category>
+		<category><![CDATA[online chat]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<category><![CDATA[zopim]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=510</guid>
+		<description><![CDATA[I was looking for a plugin through which I can integrate my site with livechat, and I found Zopim as a service provider. They give javascript code to put into head section of html page. To do that one must edit their template file which is not an easy task for a person who is &#8230; <a href="/ra-zopim/" class="more-link">Continue reading <span class="screen-reader-text">RA-Zopim</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/ra-zopim/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

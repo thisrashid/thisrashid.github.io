@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>web &#8211; Rashid Azar&#039;s Weblog</title>
+	<atom:link href="/tag/web/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Thu, 28 Jun 2018 15:07:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>JSON</title>
+		<link>/json/</link>
+		<comments>/json/#respond</comments>
+		<pubDate>Thu, 04 Oct 2012 10:17:46 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Javascript]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[json]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[web development]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=416</guid>
+		<description><![CDATA[JSON has gain its popularity in web development and I was also exploring what is JSON and how is it useful in web development. I made a presentation and conducted a session about JSON at my company premises. [slideshare id=14586517&#038;doc=json-121004053824-phpapp01]]]></description>
+		<wfw:commentRss>/json/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

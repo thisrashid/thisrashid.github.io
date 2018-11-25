@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>network folder &#8211; Rashid Azar&#039;s Weblog</title>
+	<atom:link href="/tag/network-folder/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Thu, 28 Jun 2018 15:07:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Share network drive on rdesktop</title>
+		<link>/share-network-drive-rdesktop/</link>
+		<comments>/share-network-drive-rdesktop/#respond</comments>
+		<pubDate>Sat, 27 Apr 2013 09:26:47 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[network folder]]></category>
+		<category><![CDATA[rdesktop]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=542</guid>
+		<description><![CDATA[If you want to share clipboard and map your local drive as server&#8217;s network drive, you can do this using rdesktop. [crayon-5bfab196c4489125126050/] Once you get connected your home directory will be available on the server as network drive.]]></description>
+		<wfw:commentRss>/share-network-drive-rdesktop/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

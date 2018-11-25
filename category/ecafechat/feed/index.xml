@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>eCafeChat &#8211; Rashid Azar&#039;s Weblog</title>
+	<atom:link href="/category/ecafechat/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Thu, 28 Jun 2018 15:07:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>eCafeChat: Posting Scrap Becomes Faster</title>
+		<link>/posting-scrap-becomes-faster/</link>
+		<comments>/posting-scrap-becomes-faster/#comments</comments>
+		<pubDate>Fri, 16 Oct 2009 15:47:29 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[eCafeChat]]></category>
+		<category><![CDATA[scraps]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=42</guid>
+		<description><![CDATA[Scrapbook is one of the most popular features on eCafeChat and a personal favorite of mine. For me, scrapping is the basic way to be in touch with my friends. Now sending and replying a scrap has become much more easier and faster. There is no need to go to the scrapbook of your friend &#8230; <a href="/posting-scrap-becomes-faster/" class="more-link">Continue reading <span class="screen-reader-text">eCafeChat: Posting Scrap Becomes Faster</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/posting-scrap-becomes-faster/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>eCafeChat: New Features&#8230;</title>
+		<link>/ecafechat-new-features/</link>
+		<comments>/ecafechat-new-features/#respond</comments>
+		<pubDate>Wed, 09 Sep 2009 11:26:15 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[eCafeChat]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=30</guid>
+		<description><![CDATA[Last month I updated eCafeChat and added a lots of new features for improved and better user experience. Below is a quick tour of all of our new features on eCafeChat: Profile Visitors Now every user can know who are visiting their profile. After all, aren&#8217;t you curious who is taking an interest in you, &#8230; <a href="/ecafechat-new-features/" class="more-link">Continue reading <span class="screen-reader-text">eCafeChat: New Features&#8230;</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/ecafechat-new-features/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>The Next Step&#8230;</title>
+		<link>/the-next-step/</link>
+		<comments>/the-next-step/#respond</comments>
+		<pubDate>Wed, 09 Sep 2009 13:13:01 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[eCafeChat]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=23</guid>
+		<description><![CDATA[If you&#8217;ve been on eCafeChat for more than a year, you might remember you could only have one photo—your profile picture. Before that, we didn&#8217;t have the scrapbook, just a private message of text. And also, we didn&#8217;t have forums, banks, news, etc. Maybe if you were here really early on, you might remember a &#8230; <a href="/the-next-step/" class="more-link">Continue reading <span class="screen-reader-text">The Next Step&#8230;</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/the-next-step/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Welcome To eCafeChat Blog&#8230;</title>
+		<link>/welcome-to-ecafechat-blog/</link>
+		<comments>/welcome-to-ecafechat-blog/#comments</comments>
+		<pubDate>Mon, 07 Sep 2009 20:34:10 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[eCafeChat]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=24</guid>
+		<description><![CDATA[When I tell people I am working for eCafeChat, they want to know more; why we made changes, what we&#8217;re doing next, what the people are like. We&#8217;re starting a blog so everyone can get a close-up view of what we&#8217;re doing every day to make eCafeChat happen. We&#8217;ll update it regularly, with different people &#8230; <a href="/welcome-to-ecafechat-blog/" class="more-link">Continue reading <span class="screen-reader-text">Welcome To eCafeChat Blog&#8230;</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/welcome-to-ecafechat-blog/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+	</channel>
+</rss>

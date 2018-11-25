@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>barsaat &#8211; Rashid Azar&#039;s Weblog</title>
+	<atom:link href="/tag/barsaat/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Thu, 28 Jun 2018 15:07:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Adhi Raat Aur Mein</title>
+		<link>/adhi-raat-aur-mein/</link>
+		<comments>/adhi-raat-aur-mein/#comments</comments>
+		<pubDate>Sun, 14 Feb 2010 10:57:27 +0000</pubDate>
+		<dc:creator><![CDATA[warlog]]></dc:creator>
+				<category><![CDATA[Poetry]]></category>
+		<category><![CDATA[barsaat]]></category>
+
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=48</guid>
+		<description><![CDATA[Chup galiyan band darwaje Adhi raat aur mein, Sard hawa ke jhonke lamba rasta Adhi raat aur mein, Piche sath gujarne wale mausam ki sadayen Samne hai ek dard ka sehra Adhi raat aur mein, Beete samay ki jheel pe baithe kab se hum dekh rahe hain chehra apna Adhi raat aur mein, kitne dard &#8230; <a href="/adhi-raat-aur-mein/" class="more-link">Continue reading <span class="screen-reader-text">Adhi Raat Aur Mein</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>/adhi-raat-aur-mein/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		</item>
+	</channel>
+</rss>

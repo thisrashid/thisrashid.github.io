@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Debug Java From Lotus Notes Designer</title>
+	<atom:link href="/debug-java-from-lotus-notes-designer/feed/" rel="self" type="application/rss+xml" />
+	<link>/debug-java-from-lotus-notes-designer/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Wed, 18 Oct 2017 18:27:49 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>By: admin</title>
+		<link>/debug-java-from-lotus-notes-designer/#comment-54</link>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Wed, 13 Feb 2013 03:14:45 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=292#comment-54</guid>
+		<description><![CDATA[You can download Dmino designer from IBM website. Enable remote debugging through notes.ini file of your server and then you can debug it from eclipse too.]]></description>
+		<content:encoded><![CDATA[<p>You can download Dmino designer from IBM website. Enable remote debugging through notes.ini file of your server and then you can debug it from eclipse too.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: chewbee</title>
+		<link>/debug-java-from-lotus-notes-designer/#comment-53</link>
+		<dc:creator><![CDATA[chewbee]]></dc:creator>
+		<pubDate>Thu, 31 Jan 2013 13:23:55 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=292#comment-53</guid>
+		<description><![CDATA[Hello, this is great but I am missing few points here 
+
+I just have an Eclipse(Juno) and my lotus Notes client 
+
+How can I build and debug from Eclipse instead of from Lotus ? 
+I do not know where to get &quot;Domino Designer&quot; and how to install it in Eclipse
+
+Many thanks for any clues you can provide]]></description>
+		<content:encoded><![CDATA[<p>Hello, this is great but I am missing few points here </p>
+<p>I just have an Eclipse(Juno) and my lotus Notes client </p>
+<p>How can I build and debug from Eclipse instead of from Lotus ?<br />
+I do not know where to get &#8220;Domino Designer&#8221; and how to install it in Eclipse</p>
+<p>Many thanks for any clues you can provide</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Rashid Azar</title>
+		<link>/debug-java-from-lotus-notes-designer/#comment-52</link>
+		<dc:creator><![CDATA[Rashid Azar]]></dc:creator>
+		<pubDate>Fri, 20 Jan 2012 18:02:20 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=292#comment-52</guid>
+		<description><![CDATA[@Rohan, I hope you would be using it in your application :)
+(atleast write java agent :P :D)]]></description>
+		<content:encoded><![CDATA[<p>@Rohan, I hope you would be using it in your application 🙂<br />
+(atleast write java agent 😛 :D)</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Rohan Mahajan</title>
+		<link>/debug-java-from-lotus-notes-designer/#comment-51</link>
+		<dc:creator><![CDATA[Rohan Mahajan]]></dc:creator>
+		<pubDate>Thu, 05 Jan 2012 10:04:50 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=292#comment-51</guid>
+		<description><![CDATA[Thanks &#038; Well done Rashid! You are doing gr8 job for our Java code developers. Keep it up.]]></description>
+		<content:encoded><![CDATA[<p>Thanks &amp; Well done Rashid! You are doing gr8 job for our Java code developers. Keep it up.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
