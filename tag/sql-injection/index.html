@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+<base href="http://static.rashidazar.com/" />
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>sql injection | Rashid Azar&#039;s Weblog</title>
+	
+	
+	<!--[if lt IE 9]>
+	<script src="contents/ui/theme/js/html5.js"></script>
+	<![endif]-->
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<script>
+  		(adsbygoogle = window.adsbygoogle || []).push({
+    		google_ad_client: "ca-pub-3504503208836876",
+    		enable_page_level_ads: true
+  		});
+	</script>
+	<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+
+
+
+<link rel='stylesheet' id='crayon-css'  href='contents/lib/crayon-syntax-highlighter/css/min/crayon.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='adsns_css-css'  href='contents/lib/adsense-plugin/css/adsns.css' type='text/css' media='all' />
+<link rel='stylesheet' id='twentythirteen-fonts-css'  href='https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A300%2C400%2C700%2C300italic%2C400italic%2C700italic%7CBitter%3A400%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='contents/ui/theme/genericons/genericons.css' type='text/css' media='all' />
+<link rel='stylesheet' id='twentythirteen-style-css'  href='contents/ui/theme/style.css' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentythirteen-ie-css'  href='contents/ui/theme/css/ie.css' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript' src='inc/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='inc/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var CrayonSyntaxSettings = {"version":"_2.7.2_beta","is_admin":"0","ajaxurl":"http:\/\/\/wp-admin\/admin-ajax.php","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value","debug":""};
+var CrayonSyntaxStrings = {"copy":"Press %s to Copy, %s to Paste","minimize":"Click To Expand Code"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='contents/lib/crayon-syntax-highlighter/js/min/crayon.min.js'></script>
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121948325-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-121948325-1');
+</script>		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+			<style type="text/css" id="twentythirteen-header-css">
+			.site-header {
+			background: url(contents/ui/theme/images/headers/circle.png) no-repeat scroll top;
+			background-size: 1600px auto;
+		}
+		@media (max-width: 767px) {
+			.site-header {
+				background-size: 768px auto;
+			}
+		}
+		@media (max-width: 359px) {
+			.site-header {
+				background-size: 360px auto;
+			}
+		}
+		</style>
+	</head>
+
+<body class="archive tag tag-sql-injection tag-99 single-author sidebar">
+	<div id="page" class="hfeed site">
+		<header id="masthead" class="site-header" role="banner">
+			<a class="home-link" href="" title="Rashid Azar&#039;s Weblog" rel="home">
+				<h1 class="site-title">Rashid Azar&#039;s Weblog</h1>
+				<h2 class="site-description">Don&#039;t document the program; program the document.</h2>
+			</a>
+
+			<div id="navbar" class="navbar">
+				<nav id="site-navigation" class="navigation main-navigation" role="navigation">
+					<button class="menu-toggle">Menu</button>
+					<a class="screen-reader-text skip-link" href="#content" title="Skip to content">Skip to content</a>
+					<div class="menu-main-container"><ul id="primary-menu" class="nav-menu"><li id="menu-item-427" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-427"><a href="">Home</a></li>
+<li id="menu-item-584" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-584"><a href="about/">About</a></li>
+<li id="menu-item-431" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-431"><a href="#">Religion</a>
+<ul class="sub-menu">
+	<li id="menu-item-583" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-583"><a href="hadith/">Hadith</a></li>
+	<li id="menu-item-603" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-603"><a href="techings-of-quran/">Techings of Quran</a></li>
+</ul>
+</li>
+<li id="menu-item-586" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-586"><a href="quotes/">Quotes</a></li>
+<li id="menu-item-587" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-587"><a href="my-work/">My Work</a>
+<ul class="sub-menu">
+	<li id="menu-item-434" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-434"><a href="#">WordPress</a>
+	<ul class="sub-menu">
+		<li id="menu-item-598" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-598"><a href="rashids-facebook-like-box-plugin-for-wordpress/">Rashid&#8217;s Facebook Like Box Plugin for WordPress</a></li>
+		<li id="menu-item-599" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-599"><a href="rashids-socialize-button/">Rashid&#8217;s Socialize Button</a></li>
+		<li id="menu-item-605" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-605"><a href="ra-zopim/">RA-Zopim</a></li>
+	</ul>
+</li>
+	<li id="menu-item-435" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-435"><a href="#">Lotus Notes</a>
+	<ul class="sub-menu">
+		<li id="menu-item-606" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-606"><a href="data-table-row-clickable-dojo/">Make data table row clickable using dojo</a></li>
+		<li id="menu-item-433" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-433"><a href="#">Presentations</a>
+		<ul class="sub-menu">
+			<li id="menu-item-602" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-602"><a href="json/">JSON</a></li>
+			<li id="menu-item-601" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-601"><a href="introduction-jquery/">Introduction to jQuery</a></li>
+			<li id="menu-item-600" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-600"><a href="ibm-notes-9/">IBM Notes 9</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+	<li id="menu-item-432" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-432"><a title="Upload Component for CakePHP" href="https://github.com/thisrashid/File-Upload-in-CakePHP">Upload Component for CakePHP</a></li>
+</ul>
+</li>
+<li id="menu-item-428" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-428"><a href="#">How To</a>
+<ul class="sub-menu">
+	<li id="menu-item-429" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-429"><a href="#">Linux</a>
+	<ul class="sub-menu">
+		<li id="menu-item-667" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-667"><a href="how-to-install-mongodb-on-ubuntu-16-04/">How to install MongoDB on Ubuntu 16.04</a></li>
+		<li id="menu-item-589" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-589"><a href="install-latest-node-js-ubuntu/">How to install latest node.js on Ubuntu</a></li>
+		<li id="menu-item-590" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-590"><a href="install-lamp-ubuntu-12-10/">Install LAMP in UBUNTU 12.10 / 13.04 / 13.10</a></li>
+		<li id="menu-item-591" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-591"><a href="android-usb-tethering-ubuntu-12-04/">Android USB Tethering in UBUNTU 12.04</a></li>
+		<li id="menu-item-596" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-596"><a href="recover-grub-after-windows-installation/">Recover GRUB After Windows Installation</a></li>
+		<li id="menu-item-607" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-607"><a href="share-network-drive-rdesktop/">Share network drive on rdesktop</a></li>
+	</ul>
+</li>
+	<li id="menu-item-430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-430"><a href="#">Lotus Notes</a>
+	<ul class="sub-menu">
+		<li id="menu-item-593" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-593"><a href="xpage-sort-view-column/">XPage – Sort View Column</a></li>
+		<li id="menu-item-595" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-595"><a href="how-to-bind-multiline-editbox-through-repeat-control/">How to Bind Multiline Editbox Through Repeat Control</a></li>
+		<li id="menu-item-594" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-594"><a href="debug-java-from-lotus-notes-designer/">Debug Java From Lotus Notes Designer</a></li>
+		<li id="menu-item-604" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-604"><a href="data-table-row-clickable-dojo/">Make data table row clickable using dojo</a></li>
+		<li id="menu-item-608" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-608"><a href="lotus-notes-and-git/">Lotus Notes and Git</a></li>
+		<li id="menu-item-610" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-610"><a href="xpage-validation-failed/">How to know validation of which control is getting failed</a></li>
+	</ul>
+</li>
+	<li id="menu-item-588" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-588"><a href="backup-mysql-databases/">Backup MySQL Databases</a></li>
+	<li id="menu-item-592" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-592"><a href="sync-multiple-eclipse-single-github-repository/">Sync Multiple Eclipse to a Single GitHub Repository</a></li>
+	<li id="menu-item-597" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-597"><a href="setting-auth-and-acl-in-cakephp/">Setting Auth &#038; ACL in CakePHP</a></li>
+</ul>
+</li>
+<li id="menu-item-585" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-585"><a href="donations/">Donations</a></li>
+<li id="menu-item-609" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-609"><a href="lesson-justify/">Lesson: Never Try to Justify</a></li>
+</ul></div>					<form role="search" method="get" class="search-form" action="">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form>				</nav><!-- #site-navigation -->
+			</div><!-- #navbar -->
+		</header><!-- #masthead -->
+
+		<div id="main" class="site-main">
+
+	<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+
+					<header class="archive-header">
+				<h1 class="archive-title">Tag Archives: sql injection</h1>
+
+							</header><!-- .archive-header -->
+
+										
+<article id="post-6" class="post-6 post type-post status-publish format-standard hentry category-sql tag-database tag-hacking tag-sql tag-sql-injection">
+	<header class="entry-header">
+		
+				<h1 class="entry-title">
+			<a href="sql-injection-prevention/" rel="bookmark">SQL Injection Prevention</a>
+		</h1>
+		
+		<div class="entry-meta">
+			<span class="date"><a href="sql-injection-prevention/" title="Permalink to SQL Injection Prevention" rel="bookmark"><time class="entry-date" datetime="2009-08-17T10:25:00+00:00">August 17, 2009</time></a></span><span class="categories-links"><a href="category/sql/" rel="category tag">SQL</a></span><span class="tags-links"><a href="tag/database/" rel="tag">database</a>, <a href="tag/hacking/" rel="tag">hacking</a>, <a href="tag/sql/" rel="tag">SQL</a>, <a href="tag/sql-injection/" rel="tag">sql injection</a></span><span class="author vcard"><a class="url fn n" href="author/warlog/" title="View all posts by warlog" rel="author">warlog</a></span>					</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p><span style="color: #000099;">One of the things that most scared me when creating database driven applications with PHP was the thought of someone messing with my database by using SQL injection attacks. I had heard about this from various times before thanks to other sites, but didn’t really know what it meant or what harm it could cause. In this article, I hope to enlighten you.</span></p>
+<p><span style="color: #000099;">The content and/or the techniques used in this post may be out of date. Because of this, please take extra care when using the content. If in doubt, please contact an administrator.</span></p>
+<p><span style="font-weight: bold; color: #cc0000; font-family: verdana; font-size: 130%;">Knowledge Required</span></p>
+<ul>
+<li><span style="color: #000099;">Basic knowledge of using SQL databases with PHP.</span></li>
+<li><span style="color: #000099;">Knowledge of how the $_GET or $_POST global array is used in constructing SQL statements.</span></li>
+</ul>
+<p><span style="color: #33cc00; font-weight: bold;">What is an SQL injection attack?</span></p>
+<p><span style="color: #000099;">When you visited a page like <span style="font-style: italic;">http://example.com/page.php?id=101</span> an SQL statement like the following was constructed.</span><br />
+<span style="color: #000099; font-family: arial;"><br />
+<span style="color: #993300;">SELECT * FROM sometable WHERE ID = &#8216;101&#8217;;</span></span></p>
+<p><span style="color: #000099;">As you most likely know, this pulls the record from the database where the ID field is equal to 101. There is nothing insecure about that statement and it will work perfectly fine. You can change the value on the end of the URL to modify the query and pull the new data from the database. Ah, there’s your problem, in that last sentence. The part that said that you could change a value and it would modify the query. Now thats fine if you’re simply changing it to another post number, but what if someone malicious decided to put something else in there? What happens if they replace it with the following text (notice the apostrophe): 114′ ; bad stuff here ‘23? That would then make the query look like the following.</span><br />
+<span style="color: #000099; font-family: arial;"><br />
+<span style="color: #993300;">SELECT * FROM sometable WHERE ID = &#8216;yaywoo&#8217;; bad stuff here &#8217;23&#8217;;</span></span></p>
+<p><span style="color: #000099;">Whats happened there is that we’ve closed the string yaywoo by placing an apostrophe there. This allows us to enter any other SQL statements we like (think DROP TABLE). Obviously this is a large problem as we can’t have our users free to delete our tables. The way we prevent this is by running a few “filters” on the string that is passed in through the $_GET array.</span><br />
+<span style="color: #000099;">How do I prevent them?</span></p>
+<p><span style="color: #000099;">Preventing them is actually very simple, all you need to do is to “filter” and validate the input that the user has given us. Remember, you should never trust your users. If you keep that in mind when developing your applications, you’ll be just fine (also assuming you know how to prevent them, which I will get on to). Its annoying how easy it is to prevent them, yet so many people are still coming home to see that their tables have been deleted, or their sites been spammed with lots of new pages or something. If you have just started developing using databases, you’re probably quite familiar with seeing the following type of code.</span><br />
+<span style="color: #000099;"><br />
+<span style="color: #993300; font-family: arial;">//Connect to the database</span></span><br />
+<span style="color: #993300; font-family: arial;">$dbh = mysql_connect(&#8216;localhost&#8217;, &#8216;root&#8217;, &#8216;password&#8217;);</span></p>
+<p><span style="color: #993300; font-family: arial;">//Select the database</span><br />
+<span style="color: #993300; font-family: arial;">mysql_select_db(&#8216;content&#8217;, $dbh);</span></p>
+<p><span style="color: #993300; font-family: arial;">//Construct the query</span><br />
+<span style="color: #993300; font-family: arial;">$SQL = &#8220;SELECT * FROM sometable WHERE ID = &#8216;&#8221;.$_GET[&#8216;id&#8217;].&#8221;&#8216;&#8221;;</span></p>
+<p><span style="color: #993300; font-family: arial;">//Send the query and grab the result set</span><br />
+<span style="color: #993300; font-family: arial;">$result = mysql_query($SQL, $dbh) OR die(mysql_error($dbh));</span><br />
+<span style="color: #993300; font-family: arial;">$items = mysql_fetch_array($result);</span></p>
+<p><span style="color: #993300; font-family: arial;">//Just show the array quickly</span><br />
+<span style="color: #993300; font-family: arial;">print_r($items);</span></p>
+<p><span style="color: #993300; font-family: arial;">//Close the connection to the database</span></p>
+<p><span style="color: #993300; font-family: arial;">mysql_close($dbh);</span></p>
+<p><span style="color: #000099;">The problem with this code is that the $_GET value ‘id’ has no filtering or sanitising before it goes into the query, as shown earlier. What we need to do is make sure that the data entered is going to be safe to enter the database. We can do this by using the following few methods.</span><br />
+<span style="color: #000099;">Using mysql_real_escape_string();</span></p>
+<p><span style="color: #000099;">This is the best way to prevent nasty characters entering the database. What this does is search through the string and prepends a backslash to the following: x00, n, r, , ‘, ” and x1a. Adding a backslash makes MySQL treat the character after it as a comment and therefore will ignore it. You can use this function like this:</span><br />
+<span style="color: #000099;"><br />
+<span style="color: #993300; font-family: arial;">//Database connection has already been made previously.</span></span><br />
+<span style="color: #993300; font-family: arial;">$id = mysql_real_escape_string($_GET[&#8216;id&#8217;]);</span></p>
+<p><span style="color: #993300; font-family: arial;">//Construct the query</span><br />
+<span style="color: #993300; font-family: arial;">$SQL = &#8220;SELECT * FROM sometable WHERE ID = &#8216;&#8221;.$id.&#8221;&#8216;&#8221;;</span></p>
+<p><span style="color: #993300; font-family: arial;">//Send the query and close the connection to the database</span></p>
+<p><span style="color: #000099;">By always using this, you’re pretty much safe from SQL injection attacks. Theres also one other thing that you need to do. If you are in a situation where say, you added some article text to the database and used mysql_real_escape_string() on it when it was entered, when you grab it out of the database to display again, it will have backslashes in front of all the quotation marks that might be in it. This is pretty annoying to read, so you might want to remove the slashes just before displaying them. You can do this by using a function called stripslashes()</span><br />
+<span style="color: #000099;"><br />
+<span style="color: #993300; font-family: arial;">//Database connection has already been made previously.</span></span><br />
+<span style="color: #993300; font-family: arial;">$id = mysql_real_escape_string($_GET[&#8216;id&#8217;]);</span></p>
+<p><span style="color: #993300; font-family: arial;">//Construct the query</span><br />
+<span style="color: #993300; font-family: arial;">$SQL = &#8220;SELECT * FROM sometable WHERE ID = &#8216;&#8221;.$id.&#8221;&#8216;&#8221;;</span></p>
+<p><span style="color: #993300; font-family: arial;">//Send the query and fetch the results</span><br />
+<span style="color: #993300; font-family: arial;">$result = mysql_query($SQL);</span></p>
+<p><span style="color: #993300; font-family: arial;">//Cycle through the posts in the database and echo the titles.</span><br />
+<span style="color: #993300; font-family: arial;">while ($row = mysql_fetch_array($result, MYSQL_ASSOC))</span><br />
+<span style="color: #993300; font-family: arial;">{</span><br />
+<span style="color: #993300; font-family: arial;">//Strip the slashes from the r<br />
+esult</span><br />
+<span style="color: #993300; font-family: arial;">$postTitle = stripslashes($row[&#8216;postTitle&#8217;]);</span><br />
+<span style="color: #993300; font-family: arial;">echo &#8216;Post Title: &#8216; .$postTitle;</span><br />
+<span style="color: #993300; font-family: arial;">}</span></p>
+<p><span style="color: #993300; font-family: arial;">//Free the result set from the memory</span><br />
+<span style="color: #993300; font-family: arial;">mysql_free_result($result);</span></p>
+<p><span style="color: #993300; font-family: arial;">//Close the database</span></p>
+<p><span style="color: #cc0000; font-weight: bold; font-family: verdana; font-size: 130%;">Important note!</span></p>
+<p><span style="color: #000099;">There could be a problem with using this function if your host has enabled something called get_magic_quotes_gpc(). What this does is automatically escape quotes and backslashes from all $_POST and $_GET data. This causes a problem, as when you run it through mysql_real_escape_string(), it will cause the backslahes put in by magic quotes to be escaped again. We don’t want this. What we have to do is check if this babysitting function is turned on, and if it is, use the stripslashes() function that we met earlier to remove the slashes added by get_magic_quotes_gpc(). You can do this by using the following code:</span><br />
+<span style="color: #000099;"><br />
+<span style="color: #993300; font-size: 100%;"><span style="font-family: verdana;">//Database connection has already been made previously.</span></span></span><span style="color: #993300; font-size: 100%;"> </span></p>
+<p><span style="color: #993300; font-family: verdana; font-size: 100%;">//Grab the data from the $_GET array</span><span style="color: #993300; font-size: 100%;"><br />
+</span><span style="color: #993300; font-family: verdana; font-size: 100%;">$id = $_GET[&#8216;id&#8217;];</span><span style="color: #993300; font-size: 100%;"> </span></p>
+<p><span style="color: #993300; font-family: verdana; font-size: 100%;">//Check to see if magic quotes is enabled, and if it is, strip the slashes added by it.</span><span style="color: #993300; font-size: 100%;"> </span></p>
+<p><span style="color: #993300; font-family: verdana; font-size: 100%;">if (get_magic_quotes_gpc()) { $id = stripslashes($id); }</span><span style="color: #993300; font-size: 100%;"><br />
+</span><span style="color: #993300; font-family: verdana; font-size: 100%;">$id = mysql_real_escape_string($id);</span><span style="color: #993300; font-size: 100%;"> </span></p>
+<p><span style="color: #993300; font-family: verdana; font-size: 100%;">//Construct the query</span><span style="color: #993300; font-size: 100%;"><br />
+</span><span style="color: #993300; font-family: verdana; font-size: 100%;">$SQL = &#8220;SELECT * FROM posts WHERE postID = &#8216;&#8221;.$id.&#8221;&#8216;&#8221;;</span><span style="color: #993300; font-size: 100%;"> </span></p>
+<p><span style="color: #993300; font-family: verdana; font-size: 100%;">//Send the query and fetch the results</span><span style="color: #993300; font-size: 100%;"><br />
+</span><span style="color: #993300; font-family: verdana; font-size: 100%;">$result = mysql_query($SQL);</span><span style="color: #993300; font-size: 100%;"> </span></p>
+<p><span style="color: #993300; font-family: verdana; font-size: 100%;">//Close the database</span><span style="color: #993300; font-size: 100%;"> </span></p>
+<p><span style="color: #cc0000; font-weight: bold; font-family: verdana; font-size: 130%;">Numeric validation</span></p>
+<p><span style="color: #000099;">Its good practice to check if the type of data being entered is the type of data that you want, this can prevent attacks happening in the first place, before the query is even built. There are certain functions in PHP that can help with this. Ok first example, say that you’re passing the article ID number in to grab the article from the database. It is pretty obvious that you are only ever going to have numeric data being entered, so why not limit the data only to numeric. You can do this by using the following code:</span></p>
+<p><span style="color: #993300; font-family: arial;">//Database connection has already been made previously.</span></p>
+<p><span style="color: #993300; font-family: arial;">//Grab the data from the $_GET array</span><br />
+<span style="color: #993300; font-family: arial;">$id = $_GET[&#8216;id&#8217;];</span></p>
+<p><span style="color: #993300; font-family: arial;">//Check to see if it is not numeric (the ! mark inverts the)</span><br />
+<span style="color: #993300; font-family: arial;">if (!is_numeric($id)) { die(&#8216;Please do not modify the article ID&#8217;); }</span></p>
+<p><span style="color: #993300; font-family: arial;">//Construct the query</span><br />
+<span style="color: #993300; font-family: arial;">$SQL = &#8220;SELECT * FROM sometable WHERE ID = &#8216;&#8221;.$id.&#8221;&#8216;;&#8221;;</span></p>
+<p><span style="color: #993300; font-family: arial;">//Send the query and fetch the results</span><br />
+<span style="color: #993300; font-family: arial;">$result = mysql_query($SQL);</span></p>
+<p><span style="color: #993300; font-family: arial;">//Close the database</span></p>
+<p><span style="color: #000099;">There are many other validation checks like this. Here are others you can use:</span><br />
+<span style="color: #000099;">is_ array</span><br />
+<span style="color: #000099;">is_ bool</span><br />
+<span style="color: #000099;">is_ callable</span><br />
+<span style="color: #000099;">is_ double</span><br />
+<span style="color: #000099;">is_ float</span><br />
+<span style="color: #000099;">is_ int</span><br />
+<span style="color: #000099;">is_ integer</span><br />
+<span style="color: #000099;">is_ long</span><br />
+<span style="color: #000099;">is_ null</span><br />
+<span style="color: #000099;">is_ numeric</span><br />
+<span style="color: #000099;">is_ object</span><br />
+<span style="color: #000099;">is_ real</span><br />
+<span style="color: #000099;">is_ resource</span><br />
+<span style="color: #000099;">is_ scalar</span><br />
+<span style="color: #000099;">is_ string</span><br />
+<span style="color: #000099;">isset</span></p>
+<p><span style="color: #000099;">After looking at this list, it would have probably been a better choice to use is_integer() rather than is_numeric() as the article ID will never be a decimal number (at least I hope not). It is always a good idea to validate user input like this as well as securing the data.</span><br />
+<span style="color: #000099;">Length Validation</span></p>
+<p><span style="color: #000099;">Checking the length of the data is a quick and easy way of telling whether the user is genuine or not and can prevent you sending the query to the database just to receive an error. There are two main ways of doing this task, and it depends on the data type. If you have text data (strings) then you need to check the length of the string (the amount of characters in it), whereas with numbers, you can check whether they are in a certain valid range. To find the length of string you can do the following:</span><br />
+<span style="color: #000099;"><br />
+<span style="color: #993300; font-family: arial;">//Database connection has already been made previously.</span></span></p>
+<p><span style="color: #993300; font-family: arial;">//Grab the data from the $_GET array</span><br />
+<span style="color: #993300; font-family: arial;">$username = $_GET[&#8216;username&#8217;];</span></p>
+<p><span style="color: #993300; font-family: arial;">//Get the length of the string</span><br />
+<span style="color: #993300; font-family: arial;">$length = strlen($username);</span></p>
+<p><span style="color: #993300; font-family: arial;">//Check that the string length is within a valid range (5 to 25 characters, I&#8217;m validating a username).</span><br />
+<span style="color: #993300; font-family: arial;">if ($length &lt; 5 || $length &gt; 25) { die(&#8216;Please enter a username between 5 and 25 characters long&#8217;); }</span></p>
+<p><span style="font-family: arial;">//Construct the query</span><br />
+<span style="color: #993300; font-family: arial;">$SQL = &#8220;SELECT * FROM users WHERE username = &#8216;&#8221;.$username.&#8221;&#8216;&#8221;;</span></p>
+<p><span style="color: #993300; font-family: arial;">//Send the query and fetch the results</span><br />
+<span style="color: #993300; font-family: arial;">$result = mysql_query($SQL);</span></p>
+<p><span style="color: #993300; font-family: arial;">//Close the database</span></p>
+<p><span style="color: #993300; font-family: arial;">It is a quicker process to validate numeric input. In this example, I am validating that an article ID is between 1 and 10,000.</span><br />
+<span style="color: #993300; font-family: arial;">//Database connection is present</span></p>
+<p><span style="color: #993300; font-family: arial;">//Get the id from the $_GET array</span><br />
+<span style="color: #993300; font-family: arial;">$id = $_GET[&#8216;id&#8217;];</span></p>
+<p><span style="color: #993300; font-family: arial;">//Validate between the ranges 1 and 10,00</span><br />
+<span style="color: #993300; font-family: arial;">if ($id &lt; 1 || $id &gt; 10000) { die(&#8216;Please enter a valid artile ID&#8217;) }</span></p>
+<p><span style="color: #993300; font-family: arial;">//Construct the query</span><br />
+<span style="color: #993300; font-family: arial;">$SQL = &#8220;SELECT * FROM sometable WHERE ID = &#8216;&#8221;.$id.&#8221;&#8216;&#8221;;</span></p>
+<p><span style="color: #993300; font-family: arial;">//Close the connection to the database</span></p>
+<p><span style="color: #000099;">One thing more i want to discuss here is that if you have te take text input do convert following symbols as follows:</span></p>
+<div>
+<table border="1" width="125">
+<tbody>
+<tr>
+<td width="42">
+<div>&amp;</div>
+</td>
+<td width="67">
+<div>&amp;amp;</div>
+</td>
+</tr>
+<tr>
+<td>
+<div>&lt;</div>
+</td>
+<td>
+<div>&amp;lt;</div>
+</td>
+</tr>
+<tr>
+<td>
+<div>&gt;</div>
+</td>
+<td>
+<div>&amp;gt;</div>
+</td>
+</tr>
+<tr>
+<td>
+<div>&#8220;</div>
+</td>
+<td>
+<div>&amp;quot;</div>
+</td>
+</tr>
+<tr>
+<td>
+<div>&#8216;</div>
+</td>
+<td>
+<div>&amp;apos;</div>
+</td>
+</tr>
+<tr>
+<td>
+<div>(</div>
+</td>
+<td>
+<div>(</div>
+</td>
+</tr>
+<tr>
+<td>
+<div>)</div>
+</td>
+<td>
+<div>)</div>
+</td>
+</tr>
+<tr>
+<td>
+<div>#</div>
+</td>
+<td>
+<div>#</div>
+</td>
+</tr>
+<tr>
+<td>
+<div>%</div>
+</td>
+<td>
+<div>%</div>
+</td>
+</tr>
+<tr>
+<td>
+<div>+</div>
+</td>
+<td>
+<div>+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div>&#8211;</div>
+</td>
+<td>
+<div>&#8211;</div>
+</td>
+</tr>
+<tr>
+<td>
+<div>;</div>
+</td>
+<td>
+<div>;</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><span style="color: #cc0000; font-weight: bold; font-family: verdana; font-size: 130%;"><br />
+Putting it all together</span></p>
+<p><span style="color: #000099;">Ok, so I’m going to oversecure a query to the database that selects an article by using the given article ID. Here is the code.</span><br />
+<span style="color: #993300; font-family: arial;">//Database connection is present</span></p>
+<p><span style="color: #993300; font-family: arial;">//Make sure that the id is actually given</span></p>
+<p><span style="color: #993300; font-family: arial;">if (isset($_GET[&#8216;id&#8217;]))</span><br />
+<span style="color: #993300; font-family: arial;">{ $id = $_GET[&#8216;id&#8217;]; }</span><br />
+<span style="color: #993300; font-family: arial;">else { die(&#8216;Please provide an article ID&#8217;); }</span></p>
+<p><span style="color: #993300; font-family: arial;">//Make sure that its an integer</span><br />
+<span style="color: #993300; font-family: arial;">if (is_integer($id)) { die(&#8216;Please enter a valid article ID&#8217;) }</span></p>
+<p><span style="color: #993300; font-family: arial;">//Validate that its in between the ranges 1 and 10,000</span><br />
+<span style="color: #993300; font-family: arial;">if ($id &lt; 1 || $id &gt; 10000) { die(&#8216;Please enter a valid artile ID&#8217;) }</span></p>
+<p><span style="color: #993300; font-family: arial;">//Construct the query</span><br />
+<span style="color: #993300; font-family: arial;">$SQL = &#8220;SELECT * FROM posts WHERE postID = &#8216;&#8221;.$id.&#8221;&#8216;&#8221;;</span></p>
+<p><span style="color: #993300; font-family: arial;">//Send the query and close the connection to the database</span></p>
+<p><span style="color: #000099;">This next one will validate a username before its entered into the database.</span><br />
+<span style="color: #000099;"><br />
+<span style="color: #993300; font-family: arial;">//Database connection is present</span></span></p>
+<p><span style="color: #993300; font-family: arial;">//Make sure that the id is actually given</span><br />
+<span style="color: #993300; font-family: arial;">if (isset($_GET[&#8216;username&#8217;])) { $username = $_GET[&#8216;username&#8217;]; }</span><br />
+<span style="color: #993300; font-family: arial;">else { die(&#8216;Please provide a username&#8217;); }</span></p>
+<p><span style="color: #993300; font-family: arial;">//Get the length of the username</span><br />
+<span style="color: #993300; font-family: arial;">$length = strlen($username);</span></p>
+<p><span style="color: #993300; font-family: arial;">//Validate</span><br />
+<span style="color: #993300; font-family: arial;">t &lt; 3 || $length &gt; 20)</span><br />
+<span style="color: #993300; font-family: arial;">{ die(&#8216;Please enter a username between 3 and 20 characters long&#8217;) }</span></p>
+<p><span style="color: #993300; font-family: arial;">//Make sure that its safe to enter the database.</span><br />
+<span style="color: #993300; font-family: arial;">$username = mysql_real_escape_string($username);</span></p>
+<p><span style="color: #993300; font-family: arial;">//Construct the query</span><br />
+<span style="color: #993300; font-family: arial;">$SQL = &#8220;SELECT * FROM username WHERE username = &#8216;&#8221;.$username.&#8221;&#8216;&#8221;;</span></p>
+<p><span style="color: #993300; font-family: arial;">//Show the username</span><br />
+<span style="color: #993300; font-family: arial;">echo &#8216;Username: &#8216;.stripslashes($username);</span></p>
+<p><span style="color: #cc0000; font-weight: bold; font-family: arial; font-size: 130%;">Conclusion</span></p>
+<p><span style="color: #000099;">A few things to remember about securing data for entering into an SQL query.</span><br />
+<span style="color: #000099;">Never trust your users</span><br />
+<span style="color: #000099;">Always validate input and if necessary, output</span><br />
+<span style="color: #000099;">On a production server, never show the SQL query when an error occurs, this will give the cracker the advantage.</span></p>
+	</div><!-- .entry-content -->
+	
+	<footer class="entry-meta">
+		
+			</footer><!-- .entry-meta -->
+</article><!-- #post -->
+			
+			
+		
+		</div><!-- #content -->
+	</div><!-- #primary -->
+
+	<div id="tertiary" class="sidebar-container" role="complementary">
+		<div class="sidebar-inner">
+			<div class="widget-area">
+				<aside id="ra-fb-lb" class="widget RAFacebookLikeBox_ra_fb_likebox_widget"><h3 class="widget-title"></h3>		<iframe 
+		src="https://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FRashid-Azars-Blog%2F139725676145830&amp;
+		width=300&amp;
+		height=300&amp;
+		colorscheme=light&amp;
+		show_faces=true&amp;
+		border_color=%23DDDDDD&amp;
+		stream=false&amp;
+		header=false&amp;
+		"
+		scrolling="no" 
+		frameborder="0" 
+		style="border:none; overflow:hidden; width:300px; height:300px;">
+		</iframe>
+		<small >
+			<a href="http://www.ecafechat.com">By: Rashid Azar</a>
+		</small>
+
+	</aside><aside id="text-2" class="widget widget_text">			<div class="textwidget"><a href="http://www3.clustrmaps.com/counter/maps.php?url=http://blog.ecafechat.com" id="clustrMapsLink" target="_blank"><img src="http://www3.clustrmaps.com/counter/index2.php?url=http://blog.ecafechat.com" style="border:0px;width:300px;height:180px" alt="Locations of visitors to this page" title="Locations of visitors to this page" id="clustrMapsImg" onerror="this.onerror=null; this.src='http://www2.clustrmaps.com/images/clustrmaps-back-soon.jpg'; document.getElementById('clustrMapsLink').href='http://www2.clustrmaps.com';" />
+</a>
+</div>
+		</aside>			</div><!-- .widget-area -->
+		</div><!-- .sidebar-inner -->
+	</div><!-- #tertiary -->
+
+		</div><!-- #main -->
+		<footer id="colophon" class="site-footer" role="contentinfo">
+				<div id="secondary" class="sidebar-container" role="complementary">
+		<div class="widget-area">
+			<aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form></aside>		<aside id="recent-posts-2" class="widget widget_recent_entries">		<h3 class="widget-title">Recent Posts</h3>		<ul>
+											<li>
+					<a href="how-to-install-mongodb-on-ubuntu-16-04/">How to install MongoDB on Ubuntu 16.04</a>
+									</li>
+											<li>
+					<a href="install-wordpress-on-nginx/">Install WordPress on Nginx</a>
+									</li>
+											<li>
+					<a href="ssl-setup-on-nginx-server/">SSL Setup on Nginx Server</a>
+									</li>
+											<li>
+					<a href="fatima-sheikh/">फ़ातिमा शैख़</a>
+									</li>
+											<li>
+					<a href="%e0%a4%86%e0%a4%aa%e0%a4%95%e0%a5%80-%e0%a4%b8%e0%a5%8b%e0%a4%9a-%e0%a4%b8%e0%a5%9c-%e0%a4%9a%e0%a5%81%e0%a4%95%e0%a5%80-%e0%a4%b9%e0%a5%88/">आपकी सोच सड़ चुकी है</a>
+									</li>
+					</ul>
+		</aside><aside id="recent-comments-2" class="widget widget_recent_comments"><h3 class="widget-title">Recent Comments</h3><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link"><a href='install-wordpress-on-nginx/' rel='external nofollow' class='url'>Install WordPress on Nginx | Rashid Azar&#039;s Weblog</a></span> on <a href="ssl-setup-on-nginx-server/#comment-6800">SSL Setup on Nginx Server</a></li><li class="recentcomments"><span class="comment-author-link">firdaus</span> on <a href="%e0%a4%86%e0%a4%a4%e0%a5%8d%e0%a4%ae%e0%a4%97%e0%a5%8d%e0%a4%b2%e0%a4%be%e0%a4%a8%e0%a4%bf/#comment-6025">आत्मग्लानि</a></li><li class="recentcomments"><span class="comment-author-link">Shraddha</span> on <a href="xpage-dynamic-field-binding/#comment-4162">XPage : Dynamic field Binding</a></li><li class="recentcomments"><span class="comment-author-link">h4x0r</span> on <a href="rashids-facebook-like-box-plugin-for-wordpress/#comment-84">Rashid&#8217;s Facebook Like Box Plugin for WordPress</a></li><li class="recentcomments"><span class="comment-author-link">Naveen</span> on <a href="xpage-validation-failed/#comment-133">How to know validation of which control is getting failed</a></li></ul></aside><aside id="archives-2" class="widget widget_archive"><h3 class="widget-title">Archives</h3>		<ul>
+			<li><a href='2018/06/'>June 2018</a></li>
+	<li><a href='2017/10/'>October 2017</a></li>
+	<li><a href='2017/08/'>August 2017</a></li>
+	<li><a href='2017/01/'>January 2017</a></li>
+	<li><a href='2016/11/'>November 2016</a></li>
+	<li><a href='2016/10/'>October 2016</a></li>
+	<li><a href='2015/11/'>November 2015</a></li>
+	<li><a href='2015/07/'>July 2015</a></li>
+	<li><a href='2015/06/'>June 2015</a></li>
+	<li><a href='2013/11/'>November 2013</a></li>
+	<li><a href='2013/10/'>October 2013</a></li>
+	<li><a href='2013/06/'>June 2013</a></li>
+	<li><a href='2013/05/'>May 2013</a></li>
+	<li><a href='2013/04/'>April 2013</a></li>
+	<li><a href='2013/03/'>March 2013</a></li>
+	<li><a href='2013/02/'>February 2013</a></li>
+	<li><a href='2013/01/'>January 2013</a></li>
+	<li><a href='2012/12/'>December 2012</a></li>
+	<li><a href='2012/10/'>October 2012</a></li>
+	<li><a href='2012/08/'>August 2012</a></li>
+	<li><a href='2012/06/'>June 2012</a></li>
+	<li><a href='2012/05/'>May 2012</a></li>
+	<li><a href='2012/04/'>April 2012</a></li>
+	<li><a href='2012/01/'>January 2012</a></li>
+	<li><a href='2011/12/'>December 2011</a></li>
+	<li><a href='2011/10/'>October 2011</a></li>
+	<li><a href='2011/09/'>September 2011</a></li>
+	<li><a href='2011/08/'>August 2011</a></li>
+	<li><a href='2011/07/'>July 2011</a></li>
+	<li><a href='2011/06/'>June 2011</a></li>
+	<li><a href='2010/12/'>December 2010</a></li>
+	<li><a href='2010/08/'>August 2010</a></li>
+	<li><a href='2010/04/'>April 2010</a></li>
+	<li><a href='2010/03/'>March 2010</a></li>
+	<li><a href='2010/02/'>February 2010</a></li>
+	<li><a href='2009/10/'>October 2009</a></li>
+	<li><a href='2009/09/'>September 2009</a></li>
+	<li><a href='2009/08/'>August 2009</a></li>
+		</ul>
+		</aside><aside id="categories-2" class="widget widget_categories"><h3 class="widget-title">Categories</h3>		<ul>
+	<li class="cat-item cat-item-2"><a href="category/android-2/" >Android</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="category/ecafechat/" >eCafeChat</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="category/java/" >Java</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="category/javascript/" >Javascript</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="category/linux/" >Linux</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="category/lotus-notes/" >Lotus Notes</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="category/mobile-development/" >Mobile Development</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="category/php/" >PHP</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="category/plugins/" >Plugins</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="category/poetry/" >Poetry</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="category/religion/" >Religion</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="category/social/" >Social</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="category/sql/" >SQL</a>
+</li>
+	<li class="cat-item cat-item-15"><a href="category/tips/" >Tips</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="category/uncategorized/" >Uncategorized</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="category/lotus-notes/xpages-lotus-notes/" >XPages</a>
+</li>
+		</ul>
+</aside><aside id="meta-2" class="widget widget_meta"><h3 class="widget-title">Meta</h3>			<ul>
+						<li><a href="wp-login.php">Log in</a></li>
+			<li><a href="feed/">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="comments/feed/">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>			</ul>
+			</aside>		</div><!-- .widget-area -->
+	</div><!-- #secondary -->
+
+			<div class="site-info">
+								<a href="https://wordpress.org/">Proudly powered by WordPress</a>
+			</div><!-- .site-info -->
+		</footer><!-- #colophon -->
+	</div><!-- #page -->
+
+	<script type='text/javascript' src='inc/js/imagesloaded.min.js'></script>
+<script type='text/javascript' src='inc/js/masonry.min.js'></script>
+<script type='text/javascript' src='inc/js/jquery/jquery.masonry.min.js'></script>
+<script type='text/javascript' src='contents/ui/theme/js/functions.js'></script>
+</body>
+</html>

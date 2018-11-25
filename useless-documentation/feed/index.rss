@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Documentation</title>
+	<atom:link href="http://blog.rashidazar.com/useless-documentation/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blog.rashidazar.com/useless-documentation/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Wed, 18 Oct 2017 18:27:49 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>By: admin</title>
+		<link>http://blog.rashidazar.com/useless-documentation/#comment-120</link>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Wed, 13 Feb 2013 03:34:12 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=366#comment-120</guid>
+		<description><![CDATA[Hi Stephan,
+First of all I would like to thank you for your valueable comment.
+I do agree with your suggestion but at the time of writing of above code I was not aware about JSON objects.]]></description>
+		<content:encoded><![CDATA[<p>Hi Stephan,<br />
+First of all I would like to thank you for your valueable comment.<br />
+I do agree with your suggestion but at the time of writing of above code I was not aware about JSON objects.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Stephan H. Wissel</title>
+		<link>http://blog.rashidazar.com/useless-documentation/#comment-119</link>
+		<dc:creator><![CDATA[Stephan H. Wissel]]></dc:creator>
+		<pubDate>Wed, 02 Jan 2013 00:31:52 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=366#comment-119</guid>
+		<description><![CDATA[getType() would benefit from less elseIf :-)
+Why not use a JSON object to keep your classname/label relations, so you can extend it easily when adding new classes. Something like:
+knownControls = {
+   &quot;com.ibm.xsp.DataIterator&quot; : &quot;Repeat Control&quot;,
+  &quot;com.ibm.xsp.XPager&quot; : &quot;Pager&quot;,
+...
+}
+
+what also might make sense is to document parent 
+(and eventually grandparent).]]></description>
+		<content:encoded><![CDATA[<p>getType() would benefit from less elseIf 🙂<br />
+Why not use a JSON object to keep your classname/label relations, so you can extend it easily when adding new classes. Something like:<br />
+knownControls = {<br />
+   &#8220;com.ibm.xsp.DataIterator&#8221; : &#8220;Repeat Control&#8221;,<br />
+  &#8220;com.ibm.xsp.XPager&#8221; : &#8220;Pager&#8221;,<br />
+&#8230;<br />
+}</p>
+<p>what also might make sense is to document parent<br />
+(and eventually grandparent).</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

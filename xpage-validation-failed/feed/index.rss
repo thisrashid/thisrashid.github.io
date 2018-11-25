@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: How to know validation of which control is getting failed</title>
+	<atom:link href="http://blog.rashidazar.com/xpage-validation-failed/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blog.rashidazar.com/xpage-validation-failed/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Wed, 18 Oct 2017 18:27:49 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>By: Naveen</title>
+		<link>http://blog.rashidazar.com/xpage-validation-failed/#comment-133</link>
+		<dc:creator><![CDATA[Naveen]]></dc:creator>
+		<pubDate>Mon, 28 Oct 2013 05:55:33 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=563#comment-133</guid>
+		<description><![CDATA[Nice! You should probably put this one in XSnippets.]]></description>
+		<content:encoded><![CDATA[<p>Nice! You should probably put this one in XSnippets.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

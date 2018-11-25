@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Disable X in Dojo Dialog</title>
+	<atom:link href="http://blog.rashidazar.com/disable-x-in-dojo-dialog/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blog.rashidazar.com/disable-x-in-dojo-dialog/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Wed, 18 Oct 2017 18:27:49 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>By: bitfiddler</title>
+		<link>http://blog.rashidazar.com/disable-x-in-dojo-dialog/#comment-50</link>
+		<dc:creator><![CDATA[bitfiddler]]></dc:creator>
+		<pubDate>Wed, 20 Feb 2013 04:47:21 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=198#comment-50</guid>
+		<description><![CDATA[Or you could just use dojo.style like this:
+
+		var mb = dijit.byId(&quot;dialogID&quot;);
+		dojo.style(mb.closeButtonNode, &quot;visibility&quot;, &quot;hidden&quot;);]]></description>
+		<content:encoded><![CDATA[<p>Or you could just use dojo.style like this:</p>
+<p>		var mb = dijit.byId(&#8220;dialogID&#8221;);<br />
+		dojo.style(mb.closeButtonNode, &#8220;visibility&#8221;, &#8220;hidden&#8221;);</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Gaurav Garg</title>
+		<link>http://blog.rashidazar.com/disable-x-in-dojo-dialog/#comment-49</link>
+		<dc:creator><![CDATA[Gaurav Garg]]></dc:creator>
+		<pubDate>Fri, 18 Jan 2013 10:16:58 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=198#comment-49</guid>
+		<description><![CDATA[do you know id of x button???]]></description>
+		<content:encoded><![CDATA[<p>do you know id of x button???</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: prakah</title>
+		<link>http://blog.rashidazar.com/disable-x-in-dojo-dialog/#comment-48</link>
+		<dc:creator><![CDATA[prakah]]></dc:creator>
+		<pubDate>Wed, 16 Jan 2013 10:31:55 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=198#comment-48</guid>
+		<description><![CDATA[need this]]></description>
+		<content:encoded><![CDATA[<p>need this</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Juliana</title>
+		<link>http://blog.rashidazar.com/disable-x-in-dojo-dialog/#comment-47</link>
+		<dc:creator><![CDATA[Juliana]]></dc:creator>
+		<pubDate>Mon, 20 Aug 2012 20:12:36 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=198#comment-47</guid>
+		<description><![CDATA[Awesome information. I was having a hard time with this, since although I was able to hide the button from css, the user could still click on it. This fit perfectly.]]></description>
+		<content:encoded><![CDATA[<p>Awesome information. I was having a hard time with this, since although I was able to hide the button from css, the user could still click on it. This fit perfectly.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Brenda</title>
+		<link>http://blog.rashidazar.com/disable-x-in-dojo-dialog/#comment-46</link>
+		<dc:creator><![CDATA[Brenda]]></dc:creator>
+		<pubDate>Sat, 28 Apr 2012 19:25:38 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=198#comment-46</guid>
+		<description><![CDATA[hey, i like your valuable article in which you have described very well with point wise.]]></description>
+		<content:encoded><![CDATA[<p>hey, i like your valuable article in which you have described very well with point wise.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Abhay</title>
+		<link>http://blog.rashidazar.com/disable-x-in-dojo-dialog/#comment-45</link>
+		<dc:creator><![CDATA[Abhay]]></dc:creator>
+		<pubDate>Tue, 14 Feb 2012 11:24:43 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=198#comment-45</guid>
+		<description><![CDATA[Thanks]]></description>
+		<content:encoded><![CDATA[<p>Thanks</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Tiago</title>
+		<link>http://blog.rashidazar.com/disable-x-in-dojo-dialog/#comment-44</link>
+		<dc:creator><![CDATA[Tiago]]></dc:creator>
+		<pubDate>Fri, 06 Jan 2012 12:08:45 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=198#comment-44</guid>
+		<description><![CDATA[Thanks.
+Very Usefull.]]></description>
+		<content:encoded><![CDATA[<p>Thanks.<br />
+Very Usefull.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

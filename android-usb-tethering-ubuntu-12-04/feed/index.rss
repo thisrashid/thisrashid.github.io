@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Android USB Tethering in UBUNTU 12.04</title>
+	<atom:link href="http://blog.rashidazar.com/android-usb-tethering-ubuntu-12-04/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blog.rashidazar.com/android-usb-tethering-ubuntu-12-04/</link>
+	<description>Don&#039;t document the program; program the document.</description>
+	<lastBuildDate>Wed, 18 Oct 2017 18:27:49 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>By: admin</title>
+		<link>http://blog.rashidazar.com/android-usb-tethering-ubuntu-12-04/#comment-128</link>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Tue, 26 Mar 2013 06:37:15 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=410#comment-128</guid>
+		<description><![CDATA[Ubuntu and Mint both are debian based so most probably all commands should work..:)]]></description>
+		<content:encoded><![CDATA[<p>Ubuntu and Mint both are debian based so most probably all commands should work..:)</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: bancobusto</title>
+		<link>http://blog.rashidazar.com/android-usb-tethering-ubuntu-12-04/#comment-127</link>
+		<dc:creator><![CDATA[bancobusto]]></dc:creator>
+		<pubDate>Mon, 25 Mar 2013 21:28:15 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=410#comment-127</guid>
+		<description><![CDATA[Absolutely going to have to try this when I get home tonight thank you very much for the information. I&#039;m running Linux Mint, the commands would likely be the same I&#039;m assuming? Thanks again.
+
+Regards,
+bancobusto]]></description>
+		<content:encoded><![CDATA[<p>Absolutely going to have to try this when I get home tonight thank you very much for the information. I&#8217;m running Linux Mint, the commands would likely be the same I&#8217;m assuming? Thanks again.</p>
+<p>Regards,<br />
+bancobusto</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: admin</title>
+		<link>http://blog.rashidazar.com/android-usb-tethering-ubuntu-12-04/#comment-126</link>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Wed, 13 Feb 2013 03:38:25 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=410#comment-126</guid>
+		<description><![CDATA[Hi All,
+
+I am glad to hear that I have posted somthing which is helpful to you guys.]]></description>
+		<content:encoded><![CDATA[<p>Hi All,</p>
+<p>I am glad to hear that I have posted somthing which is helpful to you guys.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Miguel</title>
+		<link>http://blog.rashidazar.com/android-usb-tethering-ubuntu-12-04/#comment-125</link>
+		<dc:creator><![CDATA[Miguel]]></dc:creator>
+		<pubDate>Wed, 13 Feb 2013 02:45:42 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=410#comment-125</guid>
+		<description><![CDATA[thank youuu]]></description>
+		<content:encoded><![CDATA[<p>thank youuu</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: tanius</title>
+		<link>http://blog.rashidazar.com/android-usb-tethering-ubuntu-12-04/#comment-124</link>
+		<dc:creator><![CDATA[tanius]]></dc:creator>
+		<pubDate>Thu, 25 Oct 2012 19:39:30 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=410#comment-124</guid>
+		<description><![CDATA[Thanks!!, I got it to work as well with your explanations.
+I had to add the two lines to /etc/network/interfaces like you say, but did not need the &quot;sudo reload smbd&quot; command.
+Instead I believe this is just given as an example in the message output, referring to the the Samba network file system daemon (which has nothing to do with network connections). The message is just proposing a &quot;better way&quot;, your &quot;sudo ifup usb0&quot; got executed anyway.
+In my case however I did not need ifup, but this command: &quot;sudo restart network-manager&quot;. Since I use the Ubuntu NetworkManager, which is the default setting.
+Executing ifup should not be needed anyway, as this should be called by the ifplugd daemon when a cable is plugged in (at least this was the case for wired Ethernet in ubuntu 11.04 or so).]]></description>
+		<content:encoded><![CDATA[<p>Thanks!!, I got it to work as well with your explanations.<br />
+I had to add the two lines to /etc/network/interfaces like you say, but did not need the &#8220;sudo reload smbd&#8221; command.<br />
+Instead I believe this is just given as an example in the message output, referring to the the Samba network file system daemon (which has nothing to do with network connections). The message is just proposing a &#8220;better way&#8221;, your &#8220;sudo ifup usb0&#8221; got executed anyway.<br />
+In my case however I did not need ifup, but this command: &#8220;sudo restart network-manager&#8221;. Since I use the Ubuntu NetworkManager, which is the default setting.<br />
+Executing ifup should not be needed anyway, as this should be called by the ifplugd daemon when a cable is plugged in (at least this was the case for wired Ethernet in ubuntu 11.04 or so).</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Pavan</title>
+		<link>http://blog.rashidazar.com/android-usb-tethering-ubuntu-12-04/#comment-123</link>
+		<dc:creator><![CDATA[Pavan]]></dc:creator>
+		<pubDate>Sun, 30 Sep 2012 04:52:06 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.ecafechat.com/?p=410#comment-123</guid>
+		<description><![CDATA[Thank you it worked for me by just adding the usb0 entries to interfaces file and then replugged the phone.]]></description>
+		<content:encoded><![CDATA[<p>Thank you it worked for me by just adding the usb0 entries to interfaces file and then replugged the phone.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
